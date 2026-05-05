@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #080b10;
+    color: #cbd5e1;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* force lowercase everywhere */
+  * {
+    text-transform: lowercase;
+  }
+}
+
+@layer components {
+  /* grid background for hero */
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(0, 200, 232, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 200, 232, 0.035) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+
+  /* subtle radial gradient overlay */
+  .radial-fade {
+    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0, 200, 232, 0.06) 0%, transparent 70%);
+  }
+
+  /* accent glow */
+  .glow-accent {
+    box-shadow: 0 0 18px rgba(0, 200, 232, 0.18), 0 0 40px rgba(0, 200, 232, 0.06);
+  }
+
+  .glow-accent-sm {
+    box-shadow: 0 0 10px rgba(0, 200, 232, 0.12);
+  }
+
+  /* green glow for mission 04 */
+  .glow-green {
+    box-shadow: 0 0 20px rgba(74, 222, 128, 0.15), 0 0 50px rgba(74, 222, 128, 0.05);
+  }
+
+  .glow-green-sm {
+    box-shadow: 0 0 10px rgba(74, 222, 128, 0.12);
+  }
+
+  /* panel card */
+  .panel {
+    @apply bg-surface border border-border rounded-sm;
+  }
+
+  /* section label */
+  .sys-label {
+    @apply font-mono text-xs text-accent tracking-widest;
+  }
+
+  /* tag pill */
+  .tag {
+    @apply font-mono text-xs px-2 py-0.5 rounded-sm border border-border text-text-dim bg-panel;
+  }
+
+  .tag-accent {
+    @apply font-mono text-xs px-2 py-0.5 rounded-sm border border-accent/30 text-accent bg-accent/5;
+  }
+
+  .tag-green {
+    @apply font-mono text-xs px-2 py-0.5 rounded-sm border border-green/30 text-green bg-green/5;
+  }
+
+  /* scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0d1117;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1a2035;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00c8e8;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* scanning line animation for hero */
+  @keyframes scan {
+    0% { top: 0%; opacity: 0.4; }
+    50% { opacity: 0.1; }
+    100% { top: 100%; opacity: 0; }
+  }
+
+  .scan-line {
+    animation: scan 8s linear infinite;
+  }
+
+  /* blink for cursor */
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  .blink {
+    animation: blink 1.2s step-end infinite;
+  }
+}
