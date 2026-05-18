@@ -6,11 +6,22 @@ export default function Nav() {
   const { lang, toggle } = useLang()
   const t = content[lang].nav
   const [scrolled, setScrolled] = useState(false)
+  const [visible, setVisible] = useState(true)
   const [active, setActive] = useState('')
   const [menuOpen, setMenuOpen] = useState(false)
+  const lastScrollY = useState(0)
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 60)
+    let last = window.scrollY
+    const onScroll = () => {
+      const current = window.scrollY
+      setScrolled(current > 60)
+      // On mobile: hide when scrolling down, show when scrolling up
+      if (window.innerWidth < 768) {
+        setVisible(current < last || current < 60)
+      }
+      last = current
+    }
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
@@ -41,7 +52,7 @@ export default function Nav() {
         scrolled
           ? 'bg-bg/95 backdrop-blur-md border-b border-border'
           : 'bg-transparent'
-      }`}
+      } ${!visible ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
