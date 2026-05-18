@@ -49,7 +49,7 @@ export default function Nav() {
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="font-display font-semibold text-text-bright tracking-tight hover:text-amber transition-colors duration-200"
         >
-          KEN<span className="text-amber">.</span>
+          KNOUZ<span className="text-amber">.</span>
         </button>
 
         {/* Desktop nav */}
