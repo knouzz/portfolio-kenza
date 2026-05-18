@@ -16,9 +16,9 @@ export default function Nav() {
     const onScroll = () => {
       const current = window.scrollY
       setScrolled(current > 60)
-      // On mobile: hide when scrolling down, show when scrolling up
+      // On mobile: hide once scrolled past top, never come back
       if (window.innerWidth < 768) {
-        setVisible(current < last || current < 60)
+        setVisible(current < 60)
       }
       last = current
     }
