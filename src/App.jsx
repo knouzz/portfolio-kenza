@@ -17,6 +17,7 @@ export default function App() {
           <Projects />
           <Toolkit />
           <Thoughts />
+          <div className="pb-48" />
         </main>
       </div>
     </LanguageProvider>
