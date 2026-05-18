@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="tg" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#5CF2C5" stop-opacity="0"/>
+    <stop offset="25%" stop-color="#5CF2C5" stop-opacity="0.5"/>
+    <stop offset="75%" stop-color="#5CF2C5" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#5CF2C5" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="gr" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0L0 0 0 40" fill="none" stroke="rgba(92,242,197,0.035)" stroke-width="1"/>
+  </pattern>
+  <!-- Bar gradients -->
+  <linearGradient id="barM" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#5CF2C5" stop-opacity="0.80"/>
+    <stop offset="100%" stop-color="#5CF2C5" stop-opacity="0.40"/>
+  </linearGradient>
+  <linearGradient id="barD" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#5CF2C5" stop-opacity="0.45"/>
+    <stop offset="100%" stop-color="#5CF2C5" stop-opacity="0.20"/>
+  </linearGradient>
+  <linearGradient id="barR" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ef4444" stop-opacity="0.70"/>
+    <stop offset="100%" stop-color="#ef4444" stop-opacity="0.30"/>
+  </linearGradient>
+</defs>
+
+<!-- Background -->
+<rect width="1200" height="675" fill="#060d0e"/>
+<rect width="1200" height="675" fill="url(#gr)"/>
+<rect width="1200" height="1.5" fill="url(#tg)"/>
+
+<!-- HEADER -->
+<text x="52" y="46" font-family="'Courier New',Courier,monospace" font-size="10" fill="#5CF2C5" letter-spacing="3" opacity="0.75">◈ CULTURAL INTELLIGENCE MONITOR</text>
+<text x="52" y="87" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#E8EAED">Intelligence Outputs</text>
+<text x="52" y="115" font-family="'Courier New',Courier,monospace" font-size="12.5" fill="#9AA8BC">What the system surfaces — and how it reaches decision-makers.</text>
+<line x1="52" y1="134" x2="1148" y2="134" stroke="rgba(92,242,197,0.10)" stroke-width="1"/>
+
+<!-- 3 OUTPUT BOXES: x=52 (w=344), x=428 (w=344), x=804 (w=344) -->
+
+<!-- ═══ BOX 1: SENTIMENT QUALITY ═══ -->
+<rect x="52" y="148" width="344" height="360" rx="10" fill="#0d1a1b" stroke="rgba(92,242,197,0.22)" stroke-width="1"/>
+<rect x="52" y="148" width="344" height="2.5" rx="1" fill="rgba(92,242,197,0.55)"/>
+<!-- Badge -->
+<rect x="66" y="163" width="34" height="18" rx="3" fill="rgba(92,242,197,0.10)" stroke="rgba(92,242,197,0.28)" stroke-width="0.8"/>
+<text x="83" y="175.5" font-family="'Courier New',monospace" font-size="9.5" fill="#5CF2C5" text-anchor="middle" letter-spacing="1">01</text>
+<text x="66" y="207" font-family="'Courier New',monospace" font-size="9.5" fill="#5CF2C5" letter-spacing="2.5" opacity="0.85">SENTIMENT QUALITY</text>
+<text x="66" y="237" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="20" font-weight="700" fill="#E8EAED">Audience Tone</text>
+<text x="66" y="258" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="400" fill="#9AA8BC">Quality over volume</text>
+<line x1="66" y1="274" x2="382" y2="274" stroke="rgba(92,242,197,0.10)" stroke-width="1"/>
+
+<!-- Michael bar -->
+<text x="66" y="298" font-family="'Courier New',monospace" font-size="10.5" fill="#E8EAED">Michael</text>
+<text x="370" y="298" font-family="'Courier New',monospace" font-size="10.5" fill="#5CF2C5" text-anchor="end">53.1%</text>
+<rect x="66" y="304" width="316" height="8" rx="3" fill="rgba(92,242,197,0.08)"/>
+<rect x="66" y="304" width="168" height="8" rx="3" fill="url(#barM)"/>
+
+<!-- DWTP2 bar -->
+<text x="66" y="330" font-family="'Courier New',monospace" font-size="10.5" fill="rgba(232,234,237,0.70)">The Devil Wears Prada 2</text>
+<text x="370" y="330" font-family="'Courier New',monospace" font-size="10.5" fill="rgba(92,242,197,0.50)" text-anchor="end">47.6%</text>
+<rect x="66" y="336" width="316" height="8" rx="3" fill="rgba(92,242,197,0.06)"/>
+<rect x="66" y="336" width="150" height="8" rx="3" fill="url(#barD)"/>
+
+<!-- Insight pill -->
+<rect x="66" y="360" width="190" height="24" rx="5" fill="rgba(92,242,197,0.08)" stroke="rgba(92,242,197,0.22)" stroke-width="0.8"/>
+<text x="161" y="375.5" font-family="'Courier New',monospace" font-size="9.5" fill="#5CF2C5" text-anchor="middle">+7.3pp quality lead</text>
+
+<line x1="66" y1="400" x2="382" y2="400" stroke="rgba(92,242,197,0.06)" stroke-width="1"/>
+
+<text x="66" y="422" font-family="'Courier New',monospace" font-size="10.5" fill="rgba(92,242,197,0.60)">Excitement &amp; concern scored</text>
+<text x="66" y="440" font-family="'Courier New',monospace" font-size="10.5" fill="rgba(92,242,197,0.60)">separately from overall mood</text>
+<text x="66" y="462" font-family="'Courier New',monospace" font-size="10" fill="rgba(154,168,188,0.35)">Hype ≠ quality</text>
+
+<!-- ═══ BOX 2: AUDIENCE ARCHETYPES ═══ -->
+<rect x="428" y="148" width="344" height="360" rx="10" fill="#0d1a1b" stroke="rgba(92,242,197,0.18)" stroke-width="1"/>
+<rect x="428" y="148" width="344" height="2.5" rx="1" fill="rgba(92,242,197,0.40)"/>
+<rect x="442" y="163" width="34" height="18" rx="3" fill="rgba(92,242,197,0.10)" stroke="rgba(92,242,197,0.28)" stroke-width="0.8"/>
+<text x="459" y="175.5" font-family="'Courier New',monospace" font-size="9.5" fill="#5CF2C5" text-anchor="middle" letter-spacing="1">02</text>
+<text x="442" y="207" font-family="'Courier New',monospace" font-size="9.5" fill="#5CF2C5" letter-spacing="2.5" opacity="0.85">AUDIENCE ARCHETYPES</text>
+<text x="442" y="237" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="20" font-weight="700" fill="#E8EAED">Behavioral Segments</text>
+<text x="442" y="258" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="400" fill="#9AA8BC">8 archetypes identified</text>
+<line x1="442" y1="274" x2="758" y2="274" stroke="rgba(92,242,197,0.10)" stroke-width="1"/>
+
+<!-- Archetype rows -->
+<!-- Legacy Believers -->
+<text x="442" y="300" font-family="'Courier New',monospace" font-size="11" fill="#9AA8BC">Legacy Believers</text>
+<text x="442" y="314" font-family="'Courier New',monospace" font-size="9" fill="rgba(154,168,188,0.45)">Michael · 86.4% of audience</text>
+<rect x="642" y="302" width="48" height="16" rx="3" fill="rgba(92,242,197,0.10)" stroke="rgba(92,242,197,0.25)" stroke-width="0.7"/>
+<text x="666" y="313.5" font-family="'Courier New',monospace" font-size="8.5" fill="#5CF2C5" text-anchor="middle">STABLE</text>
+<line x1="442" y1="325" x2="758" y2="325" stroke="rgba(92,242,197,0.05)" stroke-width="1"/>
+
+<!-- Fashion Insiders -->
+<text x="442" y="347" font-family="'Courier New',monospace" font-size="11" fill="#9AA8BC">Fashion Insiders</text>
+<text x="442" y="361" font-family="'Courier New',monospace" font-size="9" fill="rgba(154,168,188,0.45)">DWTP2 · 19.1% of audience</text>
+<rect x="629" y="349" width="62" height="16" rx="3" fill="rgba(245,163,42,0.10)" stroke="rgba(245,163,42,0.25)" stroke-width="0.7"/>
+<text x="660" y="360.5" font-family="'Courier New',monospace" font-size="8.5" fill="#F5A32A" text-anchor="middle">DIVIDED</text>
+<line x1="442" y1="372" x2="758" y2="372" stroke="rgba(92,242,197,0.05)" stroke-width="1"/>
+
+<!-- Nostalgia Advocates -->
+<text x="442" y="394" font-family="'Courier New',monospace" font-size="11" fill="#9AA8BC">Nostalgia Advocates</text>
+<text x="442" y="408" font-family="'Courier New',monospace" font-size="9" fill="rgba(154,168,188,0.45)">DWTP2 · 4.7% · 100% negative</text>
+<rect x="629" y="396" width="80" height="16" rx="3" fill="rgba(239,68,68,0.10)" stroke="rgba(239,68,68,0.35)" stroke-width="0.7"/>
+<text x="669" y="407.5" font-family="'Courier New',monospace" font-size="8.5" fill="rgba(239,68,68,0.80)" text-anchor="middle">⚠ HIGH RISK</text>
+<line x1="442" y1="419" x2="758" y2="419" stroke="rgba(92,242,242,0.05)" stroke-width="1"/>
+
+<text x="442" y="442" font-family="'Courier New',monospace" font-size="10.5" fill="rgba(92,242,197,0.60)">Each segment: distinct emotional</text>
+<text x="442" y="460" font-family="'Courier New',monospace" font-size="10.5" fill="rgba(92,242,197,0.60)">relationship to the release</text>
+<text x="442" y="478" font-family="'Courier New',monospace" font-size="10" fill="rgba(154,168,188,0.35)">Behavior, not just volume</text>
+
+<!-- ═══ BOX 3: RISK SIGNALS ═══ -->
+<rect x="804" y="148" width="344" height="360" rx="10" fill="#0d1a1b" stroke="rgba(245,163,42,0.22)" stroke-width="1"/>
+<rect x="804" y="148" width="344" height="2.5" rx="1" fill="rgba(245,163,42,0.55)"/>
+<rect x="818" y="163" width="34" height="18" rx="3" fill="rgba(245,163,42,0.10)" stroke="rgba(245,163,42,0.30)" stroke-width="0.8"/>
+<text x="835" y="175.5" font-family="'Courier New',monospace" font-size="9.5" fill="#F5A32A" text-anchor="middle" letter-spacing="1">03</text>
+<text x="818" y="207" font-family="'Courier New',monospace" font-size="9.5" fill="#F5A32A" letter-spacing="2.5" opacity="0.85">RISK SIGNALS</text>
+<text x="818" y="237" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="20" font-weight="700" fill="#E8EAED">Concern Detection</text>
+<text x="818" y="258" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="400" fill="#9AA8BC">Automated severity rating</text>
+<line x1="818" y1="274" x2="1134" y2="274" stroke="rgba(245,163,42,0.10)" stroke-width="1"/>
+
+<!-- Risk signal 1 -->
+<rect x="1090" y="289" width="26" height="18" rx="3" fill="rgba(239,68,68,0.12)" stroke="rgba(239,68,68,0.35)" stroke-width="0.7"/>
+<text x="1103" y="301" font-family="'Courier New',monospace" font-size="7.5" fill="rgba(239,68,68,0.80)" text-anchor="middle">CRIT</text>
+<text x="818" y="300" font-family="'Courier New',monospace" font-size="11" fill="#9AA8BC">Nostalgia Advocates cluster</text>
+<text x="818" y="314" font-family="'Courier New',monospace" font-size="9" fill="rgba(154,168,188,0.40)">100% negative rate · Memory-protection risk</text>
+<line x1="818" y1="325" x2="1134" y2="325" stroke="rgba(245,163,42,0.05)" stroke-width="1"/>
+
+<!-- Risk signal 2 -->
+<rect x="1073" y="336" width="44" height="18" rx="3" fill="rgba(245,163,42,0.12)" stroke="rgba(245,163,42,0.30)" stroke-width="0.7"/>
+<text x="1095" y="348" font-family="'Courier New',monospace" font-size="7.5" fill="rgba(245,163,42,0.80)" text-anchor="middle">WATCH</text>
+<text x="818" y="348" font-family="'Courier New',monospace" font-size="11" fill="#9AA8BC">Reddit platform gap</text>
+<text x="818" y="362" font-family="'Courier New',monospace" font-size="9" fill="rgba(154,168,188,0.40)">+18.5pp Michael lead · Leading indicator</text>
+<line x1="818" y1="373" x2="1134" y2="373" stroke="rgba(245,163,42,0.05)" stroke-width="1"/>
+
+<!-- Risk signal 3 -->
+<rect x="1073" y="384" width="44" height="18" rx="3" fill="rgba(245,163,42,0.12)" stroke="rgba(245,163,42,0.30)" stroke-width="0.7"/>
+<text x="1095" y="396" font-family="'Courier New',monospace" font-size="7.5" fill="rgba(245,163,42,0.80)" text-anchor="middle">WATCH</text>
+<text x="818" y="396" font-family="'Courier New',monospace" font-size="11" fill="#9AA8BC">Hype–quality gap (DWTP2)</text>
+<text x="818" y="410" font-family="'Courier New',monospace" font-size="9" fill="rgba(154,168,188,0.40)">Hype 0.484 / Positive 47.6% — fragmented</text>
+<line x1="818" y1="420" x2="1134" y2="420" stroke="rgba(245,163,42,0.05)" stroke-width="1"/>
+
+<text x="818" y="443" font-family="'Courier New',monospace" font-size="10.5" fill="rgba(245,163,42,0.65)">Alerts fire automatically</text>
+<text x="818" y="461" font-family="'Courier New',monospace" font-size="10.5" fill="rgba(245,163,42,0.65)">when thresholds crossed</text>
+<text x="818" y="479" font-family="'Courier New',monospace" font-size="10" fill="rgba(154,168,188,0.35)">No manual check required</text>
+
+<!-- ═══ BOTTOM OUTPUT STRIP ═══ -->
+<rect x="52" y="532" width="1096" height="90" rx="10" fill="rgba(8,17,18,0.80)" stroke="rgba(245,163,42,0.14)" stroke-width="1"/>
+<rect x="52" y="532" width="1096" height="1.5" rx="0" fill="rgba(245,163,42,0.30)"/>
+
+<text x="74" y="557" font-family="'Courier New',monospace" font-size="9.5" fill="rgba(245,163,42,0.65)" letter-spacing="2.5">◆ AI-GENERATED EXECUTIVE BRIEF</text>
+<text x="74" y="580" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="600" fill="#E8EAED">All three outputs synthesised into plain-English intelligence — delivered automatically.</text>
+<text x="74" y="602" font-family="'Courier New',monospace" font-size="11" fill="#9AA8BC">Mon–Fri morning briefing · Severity alerts when signals spike · No analyst required to run it</text>
+
+<text x="600" y="648" font-family="'Courier New',monospace" font-size="9" fill="rgba(154,168,188,0.22)" text-anchor="middle" letter-spacing="2.5">CULTURAL INTELLIGENCE MONITOR · KENZA EN-NASSEF</text>
+</svg>

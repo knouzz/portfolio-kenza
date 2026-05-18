@@ -1,0 +1,9 @@
+movie,cluster_label,post_count,avg_sentiment,avg_engagement,avg_likes,positive_rate,negative_rate,avg_hype_signals,avg_concern_signals,avg_word_count,cluster_share,audience_excitement_index
+Michael,Critical Observers,16,-0.2602,5.8018,216.4375,0.0,1.0,0.0625,2.0,12.9375,0.0381,0.1439
+Michael,Cultural Analysts,23,0.4755,5.8486,203.1739,1.0,0.0,1.087,0.0,19.4783,0.0548,0.7902
+Michael,Legacy Believers,363,0.1689,5.7274,195.719,0.5041,0.2342,0.2948,0.0606,16.9917,0.8643,0.4888
+Michael,Music Enthusiasts,18,0.3914,5.82,230.6111,0.9444,0.0556,0.0556,2.0,14.2222,0.0429,0.7359
+The Devil Wears Prada 2,Cautious Fans,41,0.3908,5.7742,199.122,0.9024,0.0976,0.561,0.0,17.8537,0.0911,0.719
+The Devil Wears Prada 2,Fashion Insiders,86,0.1177,5.716,195.3256,0.4419,0.4535,0.093,0.1628,17.2209,0.1911,0.4461
+The Devil Wears Prada 2,Industry Analysts,302,0.1645,5.73,192.447,0.4603,0.2748,0.4702,0.1093,15.9503,0.6711,0.4718
+The Devil Wears Prada 2,Nostalgia Advocates,21,-0.5477,5.7626,199.8095,0.0,1.0,2.1429,0.0,14.8095,0.0467,0.0272

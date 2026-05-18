@@ -12,113 +12,306 @@
   }
 
   body {
-    background-color: #080b10;
-    color: #cbd5e1;
+    background-color: #060d0e;
+    color: #9aa8bc;
     font-family: 'Inter', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
-  /* force lowercase everywhere */
-  * {
-    text-transform: lowercase;
+  /* Mint-tinted selection highlight */
+  ::selection {
+    background-color: rgba(92, 242, 197, 0.18);
+    color: #ffffff;
   }
 }
 
 @layer components {
-  /* grid background for hero */
+  /* Grid background — visible mint lines for high-contrast gamey look */
   .grid-bg {
     background-image:
-      linear-gradient(rgba(0, 200, 232, 0.035) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0, 200, 232, 0.035) 1px, transparent 1px);
-    background-size: 44px 44px;
+      linear-gradient(rgba(92, 242, 197, 0.055) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(92, 242, 197, 0.055) 1px, transparent 1px);
+    background-size: 40px 40px;
   }
 
-  /* subtle radial gradient overlay */
+  /* Radial glow — green/mint toned, more dramatic */
   .radial-fade {
-    background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0, 200, 232, 0.06) 0%, transparent 70%);
+    background: radial-gradient(
+      ellipse 100% 70% at 50% 0%,
+      rgba(47, 135, 93, 0.18) 0%,
+      rgba(6, 13, 14, 0.3) 45%,
+      transparent 72%
+    );
   }
 
-  /* accent glow */
-  .glow-accent {
-    box-shadow: 0 0 18px rgba(0, 200, 232, 0.18), 0 0 40px rgba(0, 200, 232, 0.06);
+  .radial-fade-navy {
+    background: radial-gradient(
+      ellipse 80% 60% at 50% 50%,
+      rgba(47, 135, 93, 0.10) 0%,
+      transparent 70%
+    );
   }
 
-  .glow-accent-sm {
-    box-shadow: 0 0 10px rgba(0, 200, 232, 0.12);
+  /* Glassmorphism panel */
+  .glass-panel {
+    background: rgba(8, 20, 21, 0.92);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(92, 242, 197, 0.18);
   }
 
-  /* green glow for mission 04 */
-  .glow-green {
-    box-shadow: 0 0 20px rgba(74, 222, 128, 0.15), 0 0 50px rgba(74, 222, 128, 0.05);
+  /* Glow effects — green toned, high-contrast */
+  .glow-amber {
+    box-shadow:
+      0 0 32px rgba(47, 135, 93, 0.22),
+      0 0 80px rgba(47, 135, 93, 0.08);
   }
 
-  .glow-green-sm {
-    box-shadow: 0 0 10px rgba(74, 222, 128, 0.12);
+  .glow-amber-sm {
+    box-shadow:
+      0 0 20px rgba(47, 135, 93, 0.20),
+      0 0 1px rgba(92, 242, 197, 0.30) inset;
   }
 
-  /* panel card */
+  .glow-border {
+    box-shadow: inset 0 0 0 1px rgba(92, 242, 197, 0.18);
+  }
+
+  /* Primary button — gradient with white text */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 font-medium text-sm tracking-wide rounded transition-all duration-200;
+    color: #ffffff;
+    background: linear-gradient(135deg, #38a06e 0%, #1d6640 100%);
+    box-shadow: 0 0 16px rgba(47, 135, 93, 0.22);
+  }
+
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #44b87e 0%, #245c3a 100%);
+    box-shadow: 0 0 28px rgba(47, 135, 93, 0.38);
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-6 py-3 border border-border text-text font-medium text-sm tracking-wide rounded transition-all duration-200;
+    @apply hover:border-amber/40 hover:text-text-bright;
+  }
+
+  /* Panel / card base */
   .panel {
-    @apply bg-surface border border-border rounded-sm;
+    @apply bg-panel border border-border rounded-lg;
+    box-shadow:
+      0 2px 20px rgba(0, 0, 0, 0.55),
+      0 0 0 1px rgba(92, 242, 197, 0.06) inset;
   }
 
-  /* section label */
+  .panel-elevated {
+    @apply bg-panel border border-border rounded-xl;
+    box-shadow:
+      0 4px 40px rgba(0, 0, 0, 0.65),
+      0 1px 0 rgba(92, 242, 197, 0.08) inset;
+  }
+
+  /* System label */
   .sys-label {
-    @apply font-mono text-xs text-accent tracking-widest;
+    @apply font-mono text-xs text-amber/80 tracking-[0.2em] uppercase;
   }
 
-  /* tag pill */
+  /* Tag pill */
   .tag {
-    @apply font-mono text-xs px-2 py-0.5 rounded-sm border border-border text-text-dim bg-panel;
+    @apply font-mono text-xs px-2.5 py-1 rounded border border-border text-text bg-surface;
   }
 
-  .tag-accent {
-    @apply font-mono text-xs px-2 py-0.5 rounded-sm border border-accent/30 text-accent bg-accent/5;
+  .tag-amber {
+    @apply font-mono text-xs px-2.5 py-1 rounded border border-amber/30 text-amber;
+    background-color: rgba(47,135,93,0.10);
   }
 
-  .tag-green {
-    @apply font-mono text-xs px-2 py-0.5 rounded-sm border border-green/30 text-green bg-green/5;
+  /* Section label bar */
+  .section-label {
+    @apply flex items-center gap-3 mb-10;
   }
 
-  /* scrollbar */
+  .section-label::before {
+    content: '';
+    @apply block h-px w-8 bg-amber/50;
+  }
+
+  /* Divider */
+  .divider {
+    @apply border-t border-border/60;
+  }
+
+  /* Scrollbar */
   ::-webkit-scrollbar {
-    width: 4px;
+    width: 2px;
   }
   ::-webkit-scrollbar-track {
-    background: #0d1117;
+    background: #060d0e;
   }
   ::-webkit-scrollbar-thumb {
-    background: #1a2035;
+    background: rgba(92, 242, 197, 0.25);
     border-radius: 2px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #00c8e8;
+    background: #5CF2C5;
   }
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-
-  /* scanning line animation for hero */
+  /* Scan line */
   @keyframes scan {
-    0% { top: 0%; opacity: 0.4; }
-    50% { opacity: 0.1; }
+    0%   { top: -2px; opacity: 0.6; }
+    80%  { opacity: 0.15; }
     100% { top: 100%; opacity: 0; }
   }
-
   .scan-line {
-    animation: scan 8s linear infinite;
+    animation: scan 10s linear infinite;
   }
 
-  /* blink for cursor */
+  /* Blink */
   @keyframes blink {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
+    50%       { opacity: 0; }
   }
-
   .blink {
     animation: blink 1.2s step-end infinite;
   }
+
+  /* SVG line draw */
+  @keyframes drawLine {
+    from { stroke-dashoffset: 400; }
+    to   { stroke-dashoffset: 0; }
+  }
+  .draw-line {
+    animation: drawLine 2s ease forwards;
+  }
+
+  /* Fade in from below */
+  @keyframes revealUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .reveal-up {
+    animation: revealUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  /* Staggered delays */
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+  .delay-500 { animation-delay: 500ms; }
+  .delay-600 { animation-delay: 600ms; }
+  .delay-700 { animation-delay: 700ms; }
+  .delay-800 { animation-delay: 800ms; }
+
+  .text-balance { text-wrap: balance; }
+
+  /* SVG pulse ring (map) */
+  @keyframes pulse-ring {
+    0%   { r: 6; opacity: 0.6; }
+    100% { r: 14; opacity: 0; }
+  }
+
+  /* Fade in */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease forwards;
+  }
+}
+
+/* ── Vignette — darkens screen edges for depth ─────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: radial-gradient(
+    ellipse 110% 100% at 50% 50%,
+    transparent 55%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+}
+
+/* ── Section spacing — un-layered (beats @layer utilities specificity) ── */
+section[id] {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+@media (min-width: 1024px) {
+  section[id] {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+}
+
+/* ── Leaflet real-map overrides ─────────────────────────────────────── */
+.leaflet-control-attribution,
+.leaflet-control-zoom { display: none !important; }
+
+/* Map pin — mint/green styled (NO BLUE) */
+.kp-pin {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid rgba(232, 237, 245, 0.25);
+  background: rgba(12, 39, 41, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease;
+}
+.kp-pin--active {
+  border-color: rgba(92, 242, 197, 0.85);
+  border-width: 1.5px;
+  background: rgba(47, 135, 93, 0.18);
+  box-shadow: 0 0 14px rgba(92, 242, 197, 0.22);
+}
+.kp-pin__dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(92, 242, 197, 0.55);
+  transition: width 0.25s, height 0.25s, background 0.25s;
+}
+.kp-pin--active .kp-pin__dot {
+  width: 5px;
+  height: 5px;
+  background: #5CF2C5;
+}
+.kp-pin__pulse {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid rgba(92, 242, 197, 0.30);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: kpPulse 2s ease-out infinite;
+  pointer-events: none;
+}
+@keyframes kpPulse {
+  0%   { width: 12px; height: 12px; opacity: 0.9; }
+  100% { width: 40px; height: 40px; opacity: 0; }
+}
+
+/* Country name label inside pin divIcon */
+.kp-label-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'JetBrains Mono', 'Fira Mono', monospace;
+  font-size: 7px;
+  letter-spacing: 0.12em;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: color 0.25s ease;
 }

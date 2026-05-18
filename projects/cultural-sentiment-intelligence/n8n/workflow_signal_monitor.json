@@ -1,0 +1,150 @@
+{
+  "name": "Cultural Sentiment Intelligence — Signal Monitor",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{ "field": "hours", "minutesInterval": 6 }]
+        }
+      },
+      "id": "trigger-cron",
+      "name": "Schedule Trigger (Every 6h)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "command": "cd /path/to/cultural-sentiment-intelligence && python system/collectors/reddit_collector.py"
+      },
+      "id": "collect-reddit",
+      "name": "Collect Reddit",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [500, 200],
+      "notes": "Scrapes Reddit posts + comments across configured subreddits"
+    },
+    {
+      "parameters": {
+        "command": "cd /path/to/cultural-sentiment-intelligence && python system/collectors/trends_collector.py"
+      },
+      "id": "collect-trends",
+      "name": "Collect Google Trends",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [500, 380],
+      "notes": "Pulls interest-over-time and related query data via pytrends"
+    },
+    {
+      "parameters": {
+        "command": "cd /path/to/cultural-sentiment-intelligence && python system/orchestrator.py --mode process"
+      },
+      "id": "run-nlp",
+      "name": "Run NLP Pipeline",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [760, 300],
+      "notes": "Sentiment scoring + theme detection + archetype clustering"
+    },
+    {
+      "parameters": {
+        "command": "cd /path/to/cultural-sentiment-intelligence && python system/orchestrator.py --mode export"
+      },
+      "id": "run-export",
+      "name": "Export Charts & Reports",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [1020, 300],
+      "notes": "Generates charts, KPI tables, AI summaries and dashboard exports"
+    },
+    {
+      "parameters": {
+        "filePath": "/path/to/cultural-sentiment-intelligence/data/exports/signal_monitor.json"
+      },
+      "id": "read-alerts",
+      "name": "Read Signal Alerts",
+      "type": "n8n-nodes-base.readBinaryFile",
+      "typeVersion": 1,
+      "position": [1280, 300]
+    },
+    {
+      "parameters": {
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "parse-json",
+      "name": "Parse JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1,
+      "position": [1280, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "number": [{
+            "value1": "={{ $json.high_severity }}",
+            "operation": "larger",
+            "value2": 0
+          }]
+        }
+      },
+      "id": "check-severity",
+      "name": "High Severity Alerts?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [1540, 300]
+    },
+    {
+      "parameters": {
+        "subject": "🚨 Cultural Sentiment Alert — High Severity Signal Detected",
+        "message": "=The signal monitor has detected {{ $json.high_severity }} high-severity alert(s).\n\nTotal alerts: {{ $json.total_alerts }}\nRun time: {{ $json.run_at }}\n\nReview the dashboard for details.",
+        "options": {}
+      },
+      "id": "email-alert",
+      "name": "Send Email Alert",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2,
+      "position": [1800, 200],
+      "notes": "Configure SMTP credentials in n8n credentials"
+    },
+    {
+      "parameters": {
+        "content": "=✅ Signal monitor run complete at {{ $json.run_at }}.\nAlerts: {{ $json.total_alerts }} | High severity: {{ $json.high_severity }}"
+      },
+      "id": "log-ok",
+      "name": "Log Run Complete",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1800, 400]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger (Every 6h)": {
+      "main": [[
+        { "node": "Collect Reddit",       "type": "main", "index": 0 },
+        { "node": "Collect Google Trends","type": "main", "index": 0 }
+      ]]
+    },
+    "Collect Reddit":        { "main": [[{ "node": "Run NLP Pipeline",       "type": "main", "index": 0 }]] },
+    "Collect Google Trends": { "main": [[{ "node": "Run NLP Pipeline",       "type": "main", "index": 0 }]] },
+    "Run NLP Pipeline":      { "main": [[{ "node": "Export Charts & Reports", "type": "main", "index": 0 }]] },
+    "Export Charts & Reports":{ "main": [[{ "node": "Read Signal Alerts",    "type": "main", "index": 0 }]] },
+    "Read Signal Alerts":    { "main": [[{ "node": "High Severity Alerts?",  "type": "main", "index": 0 }]] },
+    "High Severity Alerts?": {
+      "main": [
+        [{ "node": "Send Email Alert",   "type": "main", "index": 0 }],
+        [{ "node": "Log Run Complete",   "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner",
+    "errorWorkflow": ""
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": ["cultural-intelligence", "nlp", "sentiment", "automation"]
+}

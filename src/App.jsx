@@ -1,25 +1,24 @@
+import { LanguageProvider } from './context/LanguageContext'
 import Nav from './components/Nav'
-import Hero from './components/Hero'
-import Snapshot from './components/Snapshot'
-import Playbook from './components/Playbook'
-import Missions from './components/Missions'
+import About from './components/About'
+import MarketIntelligenceMap from './components/MarketIntelligenceMap'
+import Projects from './components/Projects'
+import Thoughts from './components/Thoughts'
 import Toolkit from './components/Toolkit'
-import Reviews from './components/Reviews'
-import Contact from './components/Contact'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-bg text-text">
-      <Nav />
-      <main>
-        <Hero />
-        <Snapshot />
-        <Playbook />
-        <Missions />
-        <Toolkit />
-        <Reviews />
-        <Contact />
-      </main>
-    </div>
+    <LanguageProvider>
+      <div className="min-h-screen bg-bg text-text">
+        <Nav />
+        <main>
+          <About />
+          <MarketIntelligenceMap />
+          <Projects />
+          <Toolkit />
+          <Thoughts />
+        </main>
+      </div>
+    </LanguageProvider>
   )
 }

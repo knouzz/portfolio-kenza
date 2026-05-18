@@ -1,0 +1,31 @@
+movie,platform,sentiment_label,count,avg_engagement
+Michael,Instagram,negative,25,5.9831660116622585
+Michael,Instagram,neutral,25,5.685282658459091
+Michael,Instagram,positive,50,5.692327242452179
+Michael,Reddit,negative,12,5.755668373674922
+Michael,Reddit,neutral,20,5.734731588451951
+Michael,Reddit,positive,41,5.702709341434442
+Michael,TikTok comments,negative,22,5.7670036001724005
+Michael,TikTok comments,neutral,11,5.466615049341929
+Michael,TikTok comments,positive,47,5.722769990880803
+Michael,Twitter/X,negative,13,5.778235102440561
+Michael,Twitter/X,neutral,17,5.73120150606718
+Michael,Twitter/X,positive,40,5.779067233103355
+Michael,YouTube comments,negative,30,5.665520093311819
+Michael,YouTube comments,neutral,22,5.755522090584256
+Michael,YouTube comments,positive,45,5.79967283811896
+The Devil Wears Prada 2,Instagram,negative,28,5.74483365432936
+The Devil Wears Prada 2,Instagram,neutral,16,5.582898977360306
+The Devil Wears Prada 2,Instagram,positive,44,5.620374561722735
+The Devil Wears Prada 2,Reddit,negative,36,5.808757904484202
+The Devil Wears Prada 2,Reddit,neutral,14,5.711223563808425
+The Devil Wears Prada 2,Reddit,positive,37,5.666607176154756
+The Devil Wears Prada 2,TikTok comments,negative,38,5.701543517543723
+The Devil Wears Prada 2,TikTok comments,neutral,18,5.856722988099799
+The Devil Wears Prada 2,TikTok comments,positive,48,5.7289175752119545
+The Devil Wears Prada 2,Twitter/X,negative,25,5.7792160610769265
+The Devil Wears Prada 2,Twitter/X,neutral,22,5.760096175613487
+The Devil Wears Prada 2,Twitter/X,positive,42,5.759690957689803
+The Devil Wears Prada 2,YouTube comments,negative,20,5.751722190056182
+The Devil Wears Prada 2,YouTube comments,neutral,19,5.779228394558854
+The Devil Wears Prada 2,YouTube comments,positive,43,5.780771733101624

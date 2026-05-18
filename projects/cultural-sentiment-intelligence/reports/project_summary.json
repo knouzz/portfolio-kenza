@@ -1,0 +1,25 @@
+{
+  "project": "Cultural Sentiment Intelligence",
+  "analyst": "Kenza En-Nassef",
+  "generated_at": "2026-05-17T13:19:29.198207",
+  "movies": [
+    "The Devil Wears Prada 2",
+    "Michael"
+  ],
+  "total_posts_analyzed": 870,
+  "winner_excitement_index": "Michael",
+  "kpis": {
+    "avg_sentiment": {
+      "Michael": 0.1789,
+      "The Devil Wears Prada 2": 0.1429
+    },
+    "positive_mention_pct": {
+      "Michael": 53.1,
+      "The Devil Wears Prada 2": 47.6
+    },
+    "audience_excitement_index": {
+      "Michael": 0.5074,
+      "The Devil Wears Prada 2": 0.4733
+    }
+  }
+}

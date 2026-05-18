@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-05-17T13:19:18.839265",
+  "movies_analyzed": [
+    "Michael",
+    "The Devil Wears Prada 2"
+  ],
+  "total_posts": 870,
+  "kpi_snapshot": {
+    "avg_sentiment": {
+      "Michael": 0.1789,
+      "The Devil Wears Prada 2": 0.1429
+    },
+    "positive_mention_pct": {
+      "Michael": 53.1,
+      "The Devil Wears Prada 2": 47.6
+    },
+    "audience_excitement_index": {
+      "Michael": 0.5074,
+      "The Devil Wears Prada 2": 0.4733
+    }
+  }
+}
