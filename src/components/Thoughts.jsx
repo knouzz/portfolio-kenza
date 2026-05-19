@@ -221,7 +221,7 @@ export default function Thoughts() {
               {lang === 'en' ? 'Thoughts' : 'Réflexions'}
             </h2>
             <p
-              className={`font-mono text-xs mt-2 max-w-sm opacity-0 ${inView ? 'reveal-up' : ''}`}
+              className={`font-mono text-xs mt-2 md:whitespace-nowrap opacity-0 ${inView ? 'reveal-up' : ''}`}
               style={{ animationDelay: '200ms', color: 'rgba(154,168,188,0.40)' }}
             >
               {lang === 'en'
