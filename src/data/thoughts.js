@@ -41,7 +41,7 @@ export const thoughts = [
     signal:   { label: 'EMERGING SHIFT', type: 'emerging' },
     nextExploration: [
       'AI-assisted decision systems and human override patterns.',
-      'Workflow psychology — when do people trust machines?',
+      'Workflow psychology, when do people trust machines?',
       'Operational behavior under reduced friction.',
     ],
     tools:    ['Workflow automation.', 'AI summarization pipelines', 'Behavioral analytics'],
@@ -70,8 +70,8 @@ export const thoughts = [
     title_fr: 'Pourquoi le jazz semble plus humain que la perfection algorithmique.',
     category: 'culture',
     tags:     ['Music.', 'Improvisation', 'Creativity', 'Emotion'],
-    insight:  'Jazz creates emotional tension through imperfection, timing, unpredictability, and listening. Its value comes less from technical perfection and more from the interaction dynamics between people in real time.\n\nThat gap — between what is planned and what actually happens — is where the feeling lives.',
-    insight_fr: 'Le jazz crée une tension émotionnelle à travers l\'imperfection, le timing, l\'imprévisibilité et l\'écoute. Sa valeur vient moins de la perfection technique que des dynamiques d\'interaction entre les personnes en temps réel.\n\nCet écart — entre ce qui est prévu et ce qui se passe réellement — c\'est là que réside le ressenti.',
+    insight:  'Jazz creates emotional tension through imperfection, timing, unpredictability, and listening. Its value comes less from technical perfection and more from the interaction dynamics between people in real time.\n\nThat gap, between what is planned and what actually happens, is where the feeling lives.',
+    insight_fr: 'Le jazz crée une tension émotionnelle à travers l\'imperfection, le timing, l\'imprévisibilité et l\'écoute. Sa valeur vient moins de la perfection technique que des dynamiques d\'interaction entre les personnes en temps réel.\n\nCet écart, entre ce qui est prévu et ce qui se passe réellement, c\'est là que réside le ressenti.',
     signal:   { label: 'HUMAN PATTERN', type: 'human' },
     nextExploration: [
       'Emotional timing and anticipation in live music.',

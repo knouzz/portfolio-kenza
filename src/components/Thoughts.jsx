@@ -225,8 +225,8 @@ export default function Thoughts() {
               style={{ animationDelay: '200ms', color: 'rgba(154,168,188,0.40)' }}
             >
               {lang === 'en'
-                ? 'Observations in motion — on people, culture, systems, and what connects them.'
-                : 'Observations en cours — sur les gens, la culture, les systèmes et ce qui les relie.'}
+                ? 'Observations in motion, on people, culture, systems, and what connects them.'
+                : 'Observations en cours, sur les gens, la culture, les systèmes et ce qui les relie.'}
             </p>
           </div>
 

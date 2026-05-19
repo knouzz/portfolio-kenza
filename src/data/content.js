@@ -41,8 +41,8 @@ export const content = {
       heading: 'I didn’t get into analytics because I liked dashboards.',
       paragraphs: [
         "My career didn't start in analytics. It started in understanding people.",
-        "Years in brand strategy and communications taught me how narratives shape behaviour — and how rarely those narratives were grounded in evidence about what customers actually do or need. That gap is exactly where I work: at the intersection of brand, customer, and data.",
-        "Today I focus on four things: understanding what drives campaign and creator performance, spotting patterns in customer behaviour, building the reporting visibility that helps brands make smarter decisions, and making sure what we sell actually fits what the customer needs. I work across brands and agencies — equally at home in a data environment and in a strategic conversation.",
+        "Years in brand strategy and communications taught me how narratives shape behaviour, and how rarely those narratives were grounded in evidence about what customers actually do or need. That gap is exactly where I work: at the intersection of brand, customer, and data.",
+        "Today I focus on four things: understanding what drives campaign and creator performance, spotting patterns in customer behaviour, building the reporting visibility that helps brands make smarter decisions, and making sure what we sell actually fits what the customer needs. I work across brands and agencies, equally at home in a data environment and in a strategic conversation.",
       ],
       stats: [
         { value: '4+',  label: 'Years of experience' },
@@ -62,7 +62,7 @@ export const content = {
       label: 'Selected Work',
       heading: 'Things I’ve helped make clearer.',
       sub:
-        'Across retail, FMCG, e-commerce and gaming — these are the projects that shaped how I think about data, systems and decisions. A selection. Not everything made the cut.',
+        'Across retail, FMCG, e-commerce and gaming, these are the projects that shaped how I think about data, systems and decisions. A selection. Not everything made the cut.',
       cta: 'Explore Project',
     },
 
@@ -79,7 +79,7 @@ export const content = {
       items: [
         {
           quote:
-            'Kenza has a rare ability to understand both the business problem and the operational solution — then build the bridge between them. The system she designed restored data integrity across our entire product range and continues to run without incident.',
+            'Kenza has a rare ability to understand both the business problem and the operational solution, then build the bridge between them. The system she designed restored data integrity across our entire product range and continues to run without incident.',
           name:     'First Last',
           title:    'Commercial Director',
           company:  'FMCG Company',
@@ -88,7 +88,7 @@ export const content = {
         },
         {
           quote:
-            "What sets Kenza apart is her instinct for the end user. She doesn't just build systems — she builds systems people actually adopt. The performance dashboards she delivered became our team's primary decision tool within weeks of launch.",
+            "What sets Kenza apart is her instinct for the end user. She doesn't just build systems, she builds systems people actually adopt. The performance dashboards she delivered became our team's primary decision tool within weeks of launch.",
           name:     'First Last',
           title:    'Head of Business Intelligence',
           company:  'Retail & Consumer Goods',
@@ -115,7 +115,7 @@ export const content = {
         },
         {
           quote:
-            'I was impressed by how quickly Kenza grasped the strategic context — not just the data. She asked the right questions before touching a single tool, and that discipline showed in every deliverable. A pleasure to work with.',
+            'I was impressed by how quickly Kenza grasped the strategic context, not just the data. She asked the right questions before touching a single tool, and that discipline showed in every deliverable. A pleasure to work with.',
           name:     'First Last',
           title:    'Category Development Manager',
           company:  'FMCG Multinational',
@@ -133,7 +133,7 @@ export const content = {
         },
         {
           quote:
-            'Working with Kenza on the demand forecasting model was a masterclass in applied analytics. She balanced methodological rigour with pragmatic delivery — the model was live, adopted, and improving accuracy within the first quarter.',
+            'Working with Kenza on the demand forecasting model was a masterclass in applied analytics. She balanced methodological rigour with pragmatic delivery, the model was live, adopted, and improving accuracy within the first quarter.',
           name:     'First Last',
           title:    'Head of Commercial Planning',
           company:  'Retail Distribution Group',
@@ -142,7 +142,7 @@ export const content = {
         },
         {
           quote:
-            "Kenza has an unusual combination of skills: she can sit in a data engineering conversation and a board-level strategy discussion and add value in both. That range is what makes her outputs genuinely usable — not just technically sound.",
+            "Kenza has an unusual combination of skills: she can sit in a data engineering conversation and a board-level strategy discussion and add value in both. That range is what makes her outputs genuinely usable, not just technically sound.",
           name:     'First Last',
           title:    'VP Analytics & Insights',
           company:  'E-Commerce & Digital Retail',
@@ -201,8 +201,8 @@ cta1:
       heading: "Un autre type d'analyste.",
       paragraphs: [
         "Ma carrière n'a pas commencé dans l'analytique. Elle a commencé dans la compréhension des gens.",
-        "Des années en stratégie de marque et communication m'ont appris comment les récits façonnent les comportements — et à quel point ces récits étaient rarement ancrés dans des preuves sur ce que les clients font ou ont réellement besoin. C'est exactement là que je travaille : à l'intersection de la marque, du client et de la data.",
-        "Aujourd'hui je me concentre sur quatre choses : comprendre ce qui fait performer les campagnes et les créateurs, identifier les patterns de comportement client, construire la visibilité reporting qui aide les marques à prendre de meilleures décisions, et m'assurer que ce qu'on vend correspond réellement aux besoins du client. Je collabore avec des marques et des agences — aussi à l'aise dans un environnement data que dans une conversation stratégique.",
+        "Des années en stratégie de marque et communication m'ont appris comment les récits façonnent les comportements, et à quel point ces récits étaient rarement ancrés dans des preuves sur ce que les clients font ou ont réellement besoin. C'est exactement là que je travaille : à l'intersection de la marque, du client et de la data.",
+        "Aujourd'hui je me concentre sur quatre choses : comprendre ce qui fait performer les campagnes et les créateurs, identifier les patterns de comportement client, construire la visibilité reporting qui aide les marques à prendre de meilleures décisions, et m'assurer que ce qu'on vend correspond réellement aux besoins du client. Je collabore avec des marques et des agences, aussi à l'aise dans un environnement data que dans une conversation stratégique.",
       ],
       stats: [
         { value: '4+',   label: "Années d'expérience" },
@@ -222,13 +222,13 @@ cta1:
       label:   'Approche Stratégique',
       heading: "Ma façon d'opérer.",
       sub:
-        "Quatre principes qui traversent chaque projet — de la refonte de process à la recherche consommateur.",
+        "Quatre principes qui traversent chaque projet, de la refonte de process à la recherche consommateur.",
       pillars: [
         {
           number: '01',
           title:  'Diagnostiquer avant de construire',
           body:
-            "Chaque système commence par une question, pas un outil. Je cartographie le workflow complet — chaque fichier, chaque transfert, chaque point de défaillance — avant de concevoir quoi que ce soit. Le vrai problème est rarement là où il apparaît en premier.",
+            "Chaque système commence par une question, pas un outil. Je cartographie le workflow complet, chaque fichier, chaque transfert, chaque point de défaillance, avant de concevoir quoi que ce soit. Le vrai problème est rarement là où il apparaît en premier.",
         },
         {
           number: '02',
@@ -240,13 +240,13 @@ cta1:
           number: '03',
           title:  'Rendre la méthodologie visible',
           body:
-            "La rigueur analytique doit se voir — pas dans la complexité, mais dans les étapes. Je documente chaque hypothèse, chaque choix de modèle, chaque étape de validation. Le travail n'est aussi fiable que le processus qui le sous-tend.",
+            "La rigueur analytique doit se voir, pas dans la complexité, mais dans les étapes. Je documente chaque hypothèse, chaque choix de modèle, chaque étape de validation. Le travail n'est aussi fiable que le processus qui le sous-tend.",
         },
         {
           number: '04',
           title:  'Fermer la boucle',
           body:
-            "La livraison n'est pas la ligne d'arrivée. Je vérifie si les décisions ont réellement changé — si le modèle est devenu plus précis, si le process est resté adopté, si l'insight a fait bouger le chiffre pour lequel il a été construit.",
+            "La livraison n'est pas la ligne d'arrivée. Je vérifie si les décisions ont réellement changé, si le modèle est devenu plus précis, si le process est resté adopté, si l'insight a fait bouger le chiffre pour lequel il a été construit.",
         },
       ],
     },
@@ -255,7 +255,7 @@ cta1:
       label:   'Projets Phares',
       heading: 'Les réalisations qui ont fait la différence.',
       sub:
-        "Entre retail, FMCG, e-commerce et gaming — ce sont les projets qui ont façonné ma façon de penser la data, les systèmes et les décisions. Une sélection. Tout n'a pas été retenu.",
+        "Entre retail, FMCG, e-commerce et gaming, ce sont les projets qui ont façonné ma façon de penser la data, les systèmes et les décisions. Une sélection. Tout n'a pas été retenu.",
       cta: "Voir le projet",
     },
 
@@ -263,7 +263,7 @@ cta1:
       label:   'Outils & Systèmes',
       heading: 'Les instruments.',
       sub:
-        "Construit en consumer analytics, intelligence marketing, BI et recherche comportementale. Voici ce que j'utilise — et là où j'ai développé une vraie profondeur.",
+        "Construit en consumer analytics, intelligence marketing, BI et recherche comportementale. Voici ce que j'utilise, et là où j'ai développé une vraie profondeur.",
     },
 
     testimonials: {
@@ -272,7 +272,7 @@ cta1:
       items: [
         {
           quote:
-            "Kenza a cette rare capacité de comprendre à la fois le problème business et la solution opérationnelle — puis de construire le pont entre les deux. Le système qu'elle a conçu a restauré l'intégrité des données sur l'ensemble de notre catalogue produits et fonctionne sans incident.",
+            "Kenza a cette rare capacité de comprendre à la fois le problème business et la solution opérationnelle, puis de construire le pont entre les deux. Le système qu'elle a conçu a restauré l'intégrité des données sur l'ensemble de notre catalogue produits et fonctionne sans incident.",
           name:     'Prénom Nom',
           title:    'Directrice Commerciale',
           company:  'Entreprise FMCG',
@@ -281,7 +281,7 @@ cta1:
         },
         {
           quote:
-            "Ce qui distingue Kenza, c'est son instinct pour l'utilisateur final. Elle ne construit pas seulement des systèmes — elle construit des systèmes que les gens adoptent vraiment. Les dashboards de performance qu'elle a livrés sont devenus l'outil de décision principal de notre équipe en quelques semaines.",
+            "Ce qui distingue Kenza, c'est son instinct pour l'utilisateur final. Elle ne construit pas seulement des systèmes, elle construit des systèmes que les gens adoptent vraiment. Les dashboards de performance qu'elle a livrés sont devenus l'outil de décision principal de notre équipe en quelques semaines.",
           name:     'Prénom Nom',
           title:    'Head of Business Intelligence',
           company:  'Distribution & Grande Consommation',
@@ -308,7 +308,7 @@ cta1:
         },
         {
           quote:
-            "J'ai été impressionné par la rapidité avec laquelle Kenza a saisi le contexte stratégique — pas seulement les données. Elle a posé les bonnes questions avant de toucher le moindre outil, et cette rigueur se voyait dans chaque livrable.",
+            "J'ai été impressionné par la rapidité avec laquelle Kenza a saisi le contexte stratégique, pas seulement les données. Elle a posé les bonnes questions avant de toucher le moindre outil, et cette rigueur se voyait dans chaque livrable.",
           name:     'Prénom Nom',
           title:    'Category Development Manager',
           company:  'Multinationale FMCG',
@@ -326,7 +326,7 @@ cta1:
         },
         {
           quote:
-            "Travailler avec Kenza sur le modèle de prévision de la demande a été une masterclass en analytique appliquée. Elle a su allier rigueur méthodologique et livraison pragmatique — le modèle était en production et améliorait la précision dès le premier trimestre.",
+            "Travailler avec Kenza sur le modèle de prévision de la demande a été une masterclass en analytique appliquée. Elle a su allier rigueur méthodologique et livraison pragmatique, le modèle était en production et améliorait la précision dès le premier trimestre.",
           name:     'Prénom Nom',
           title:    'Head of Commercial Planning',
           company:  'Groupe Distribution Retail',

@@ -94,8 +94,8 @@ export default function Toolkit() {
             </div>
             <div className="p-5 flex flex-wrap gap-2">
               {(lang === 'en'
-                ? ['English', 'French', 'Arabic', 'Turkish — Beginner']
-                : ['Anglais', 'Français', 'Arabe', 'Turc — Débutant']
+                ? ['English', 'French', 'Arabic', 'Turkish, Beginner']
+                : ['Anglais', 'Français', 'Arabe', 'Turc, Débutant']
               ).map((l) => (
                 <span
                   key={l}

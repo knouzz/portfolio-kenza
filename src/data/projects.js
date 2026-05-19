@@ -165,9 +165,9 @@ demo: {
           fr: 'Efficacité promotionnelle croisée avec les tendances comportementales.',
         },
         {
-          en: 'Daily target-vs-actual KPI dashboard — updated and accessible across all devices.',
+          en: 'Daily target-vs-actual KPI dashboard, updated and accessible across all devices.',
 
-          fr: 'Tableau KPI quotidien objectif-versus-réalisé — mis à jour et accessible sur tous les appareils.',
+          fr: 'Tableau KPI quotidien objectif-versus-réalisé, mis à jour et accessible sur tous les appareils.',
 
         },
       ],
@@ -259,7 +259,7 @@ demo: {
       { value: '100%', label: { en: 'Self-serve reporting adoption',   fr: 'Adoption reporting autonome' } },
     ],
     en: {
-      title:    'La Redoute — E-Commerce Intelligence',
+      title:    'La Redoute, E-Commerce Intelligence',
       subtitle: 'Customer & Acquisition Performance Platform',
       impact:
         'I built an e-commerce intelligence platform connecting acquisition spend to customer lifetime value, giving the team a clear read on which channels actually work.',
@@ -275,7 +275,7 @@ demo: {
         'The team can now distinguish quality customers from volume. Conversion reviews moved from monthly to weekly, with budget decisions grounded in real behaviour.',
     },
     fr: {
-      title:    'La Redoute — Intelligence e-commerce',
+      title:    'La Redoute, Intelligence e-commerce',
       subtitle: "Plateforme performance client & acquisition",
       impact:
         "J'ai construit une plateforme d'intelligence e-commerce reliant l'investissement acquisition a la valeur vie client, donnant a l'equipe une lecture claire des canaux qui fonctionnent.",
@@ -387,9 +387,9 @@ demo: {
 
         },
         {
-          en: "Trend modelling framework validated by Ubisoft's strategic panel — ranked 3rd/17.",
+          en: "Trend modelling framework validated by Ubisoft's strategic panel, ranked 3rd/17.",
 
-          fr: 'Cadre de modélisation de tendance validé par le jury stratégique Ubisoft — 3ème/17.',
+          fr: 'Cadre de modélisation de tendance validé par le jury stratégique Ubisoft, 3ème/17.',
 
         },
       ],
@@ -535,9 +535,9 @@ demo: {
 
         },
         {
-          en: 'Intervention mapping by archetype — identifying predictable switching conditions before defection.',
+          en: 'Intervention mapping by archetype, identifying predictable switching conditions before defection.',
 
-          fr: 'Cartographie des interventions par archétype — identifier les conditions de switching avant la défection.',
+          fr: 'Cartographie des interventions par archétype, identifier les conditions de switching avant la défection.',
 
         },
       ],
@@ -564,13 +564,13 @@ demo: {
       context:
         'The project started from real conversations. Different groups around me had completely different opinions: some were excited, some were skeptical, and some had already decided one movie was not worth watching. I wanted to move beyond my own circle and understand what online audiences were really saying.',
       problem:
-        'Movie hype is noisy. Volume alone does not tell you whether people are excited, doubtful, nostalgic, defensive, or simply arguing. The challenge was to separate attention from actual audience quality — and to keep tracking it as sentiment evolves.',
+        'Movie hype is noisy. Volume alone does not tell you whether people are excited, doubtful, nostalgic, defensive, or simply arguing. The challenge was to separate attention from actual audience quality, and to keep tracking it as sentiment evolves.',
       approach:
         'Built a recurring workflow using n8n and Python: social conversations are collected from multiple platforms, cleaned, scored for sentiment, grouped into audience archetypes, and refreshed every 6 hours. The goal was not to "review" the movies, but to read the cultural signals around them.',
       solution:
         'A seasonal signal-monitoring system producing sentiment KPIs, audience clusters, platform-level mood analysis, Tableau dashboards, and automated intelligence outputs. The project is designed to be reused every few months with a new cultural topic, trend, launch, or internet debate.',
       result:
-        'For now, Michael is leading on audience quality: stronger positive sentiment (+7.3pp), higher excitement index (0.507 vs 0.473), and a more stable audience base. Devil Wears Prada 2 creates strong hype, but with more fragmented and anxiety-driven reactions. The signal is live — and the system keeps reevaluating it every 6 hours.',
+        'For now, Michael is leading on audience quality: stronger positive sentiment (+7.3pp), higher excitement index (0.507 vs 0.473), and a more stable audience base. Devil Wears Prada 2 creates strong hype, but with more fragmented and anxiety-driven reactions. The signal is live, and the system keeps reevaluating it every 6 hours.',
     },
     fr: {
       title:    'Seasonal Signals',
@@ -580,21 +580,21 @@ demo: {
       context:
         'Le projet est né de vraies conversations. Autour de moi, les réactions étaient très différentes : certains étaient très enthousiastes, d’autres sceptiques, et certains avaient déjà décidé qu’un des deux films ne valait pas le détour. J’ai voulu sortir de mon cercle et comprendre ce que les audiences en ligne disaient réellement.',
       problem:
-        'La hype autour d’un film est bruyante. Le volume de conversations ne suffit pas à savoir si les gens sont enthousiastes, nostalgiques, méfiants, critiques ou simplement en train de débattre. L’enjeu était donc de distinguer l’attention de la vraie qualité d’audience — et de suivre son évolution dans le temps.',
+        'La hype autour d’un film est bruyante. Le volume de conversations ne suffit pas à savoir si les gens sont enthousiastes, nostalgiques, méfiants, critiques ou simplement en train de débattre. L’enjeu était donc de distinguer l’attention de la vraie qualité d’audience, et de suivre son évolution dans le temps.',
       approach:
         'J’ai construit un workflow récurrent avec n8n et Python : les conversations sociales sont collectées sur plusieurs plateformes, nettoyées, scorées en sentiment, regroupées en archétypes d’audience et réévaluées toutes les 6h. L’objectif n’était pas de "critiquer" les films, mais de lire les signaux culturels qui se forment autour d’eux.',
       solution:
         'Un système saisonnier de monitoring culturel produisant des KPIs de sentiment, des clusters d’audience, une analyse d’humeur par plateforme, des dashboards Tableau et des sorties d’intelligence automatisées. Le projet est conçu pour être réutilisé tous les quelques mois sur un nouveau sujet culturel, une tendance, un lancement ou un débat internet.',
       result:
-        'Pour l’instant, Michael mène sur la qualité d’audience : sentiment positif plus fort (+7,3pp), index d’excitation plus élevé (0,507 vs 0,473) et base d’audience plus stable. Devil Wears Prada 2 génère beaucoup de hype, mais avec des réactions plus fragmentées et anxieuses. Le signal reste live — le système continue de le réévaluer toutes les 6h.',
+        'Pour l’instant, Michael mène sur la qualité d’audience : sentiment positif plus fort (+7,3pp), index d’excitation plus élevé (0,507 vs 0,473) et base d’audience plus stable. Devil Wears Prada 2 génère beaucoup de hype, mais avec des réactions plus fragmentées et anxieuses. Le signal reste live, le système continue de le réévaluer toutes les 6h.',
     },
     demo: {
       tableau: {
         file:  '/demos/cultural-sentiment-intelligence/Cultural_Sentiment_Intelligence.twbx',
         title: {
-          en: 'Seasonal Signals — Tableau Dashboard.',
+          en: 'Seasonal Signals, Tableau Dashboard.',
 
-          fr: 'Seasonal Signals — Dashboard Tableau.',
+          fr: 'Seasonal Signals, Dashboard Tableau.',
 
         },
         caption: {
@@ -608,72 +608,72 @@ demo: {
       diagrams: [
         {
           src:     '/demos/cultural-sentiment-intelligence/diagrams/01_system_architecture.svg',
-          caption: { en: 'System overview — from online debate to live cultural signal tracking', fr: 'Vue système — du débat en ligne au suivi live des signaux culturels' },
+          caption: { en: 'System overview, from online debate to live cultural signal tracking', fr: 'Vue système, du débat en ligne au suivi live des signaux culturels' },
           note:    { en: 'Social conversations → Sentiment scoring → Audience archetypes → Automated refresh', fr: 'Conversations sociales → Scoring sentiment → Archétypes d’audience → Actualisation automatisée' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/diagrams/02_data_flow.svg',
-          caption: { en: 'The signal journey — how scattered opinions become structured audience intelligence', fr: 'Le parcours du signal — comment des opinions dispersées deviennent une intelligence audience structurée' },
-          note:    { en: 'Capture → Clean → Score → Segment → Compare — refreshed every 6 hours', fr: 'Capturer → Nettoyer → Scorer → Segmenter → Comparer — actualisé toutes les 6h' },
+          caption: { en: 'The signal journey, how scattered opinions become structured audience intelligence', fr: 'Le parcours du signal, comment des opinions dispersées deviennent une intelligence audience structurée' },
+          note:    { en: 'Capture → Clean → Score → Segment → Compare, refreshed every 6 hours', fr: 'Capturer → Nettoyer → Scorer → Segmenter → Comparer, actualisé toutes les 6h' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/diagrams/03_ai_pipeline.svg',
-          caption: { en: 'AI-assisted interpretation — surfacing hype, concern, nostalgia and emotional momentum', fr: 'Interprétation assistée par IA — faire émerger hype, inquiétude, nostalgie et momentum émotionnel' },
+          caption: { en: 'AI-assisted interpretation, surfacing hype, concern, nostalgia and emotional momentum', fr: 'Interprétation assistée par IA, faire émerger hype, inquiétude, nostalgie et momentum émotionnel' },
           note:    { en: 'Built to separate conversation volume from audience quality', fr: 'Conçu pour distinguer le volume de conversation de la qualité d’audience' },
         },
       ],
       screenshots: [
         {
           src:     '/demos/cultural-sentiment-intelligence/01_kpi_overview.png',
-          caption: { en: 'KPI overview — which movie is winning the cultural signal?', fr: 'Vue KPI — quel film gagne le signal culturel ?' },
+          caption: { en: 'KPI overview, which movie is winning the cultural signal?', fr: 'Vue KPI, quel film gagne le signal culturel ?' },
           note:    { en: 'Michael currently leads on avg sentiment (0.179 vs 0.143) and excitement index (0.507 vs 0.473)', fr: 'Michael mène actuellement sur le sentiment moyen (0,179 vs 0,143) et l’index d’excitation (0,507 vs 0,473)' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/02_sentiment_distribution.png',
-          caption: { en: 'Sentiment distribution — not all hype is positive', fr: 'Distribution du sentiment — toute hype n’est pas positive' },
+          caption: { en: 'Sentiment distribution, not all hype is positive', fr: 'Distribution du sentiment, toute hype n’est pas positive' },
           note:    { en: 'DWP2 carries a higher negative rate (32.7% vs 24.3%), showing more divided pre-release reactions', fr: 'DWP2 affiche un taux négatif plus élevé (32,7% vs 24,3%), signe de réactions pré-sortie plus divisées' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/03_sentiment_over_time.png',
-          caption: { en: 'Sentiment over time — how online mood shifts as the debate evolves', fr: 'Sentiment dans le temps — comment l’humeur en ligne évolue avec le débat' },
+          caption: { en: 'Sentiment over time, how online mood shifts as the debate evolves', fr: 'Sentiment dans le temps, comment l’humeur en ligne évolue avec le débat' },
           note:    { en: 'The workflow keeps reevaluating sentiment every 6 hours to capture momentum changes', fr: 'Le workflow réévalue le sentiment toutes les 6h pour capter les changements de momentum' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/04_pca_clusters.png',
-          caption: { en: 'PCA cluster map — audience groups behind the debate', fr: 'Carte PCA — les groupes d’audience derrière le débat' },
+          caption: { en: 'PCA cluster map, audience groups behind the debate', fr: 'Carte PCA, les groupes d’audience derrière le débat' },
           note:    { en: '8 audience archetypes reveal how different communities emotionally position each movie', fr: '8 archétypes d’audience montrent comment différentes communautés positionnent émotionnellement chaque film' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/05_cluster_heatmap.png',
-          caption: { en: 'Cluster heatmap — emotional signatures by audience segment', fr: 'Heatmap des clusters — signatures émotionnelles par segment d’audience' },
+          caption: { en: 'Cluster heatmap, emotional signatures by audience segment', fr: 'Heatmap des clusters, signatures émotionnelles par segment d’audience' },
           note:    { en: 'Each segment carries a different mix of excitement, doubt, nostalgia and concern', fr: 'Chaque segment porte un mélange différent d’excitation, de doute, de nostalgie et d’inquiétude' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/06_engagement_vs_sentiment.png',
-          caption: { en: 'Engagement vs sentiment — attention does not always mean approval', fr: 'Engagement vs sentiment — l’attention ne signifie pas toujours l’adhésion' },
-          note:    { en: 'Engagement is almost equal, but sentiment quality diverges — volume is not the same as audience confidence', fr: 'L’engagement est presque égal, mais la qualité du sentiment diverge — le volume n’est pas la confiance d’audience' },
+          caption: { en: 'Engagement vs sentiment, attention does not always mean approval', fr: 'Engagement vs sentiment, l’attention ne signifie pas toujours l’adhésion' },
+          note:    { en: 'Engagement is almost equal, but sentiment quality diverges, volume is not the same as audience confidence', fr: 'L’engagement est presque égal, mais la qualité du sentiment diverge, le volume n’est pas la confiance d’audience' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/07_platform_sentiment.png',
-          caption: { en: 'Platform mood — where each movie wins or worries audiences', fr: 'Humeur par plateforme — où chaque film gagne ou inquiète les audiences' },
+          caption: { en: 'Platform mood, where each movie wins or worries audiences', fr: 'Humeur par plateforme, où chaque film gagne ou inquiète les audiences' },
           note:    { en: 'Reddit shows the widest gap in Michael\'s favour, making it a key early signal platform', fr: 'Reddit montre le plus grand écart en faveur de Michael, ce qui en fait une plateforme signal clé' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/08_excitement_index.png',
-          caption: { en: 'Excitement index — measuring emotional momentum, not just mentions', fr: 'Index d’excitation — mesurer le momentum émotionnel, pas seulement les mentions' },
+          caption: { en: 'Excitement index, measuring emotional momentum, not just mentions', fr: 'Index d’excitation, mesurer le momentum émotionnel, pas seulement les mentions' },
           note:    { en: 'Michael scores 0.507 vs DWP2\'s 0.473 on a 0–1 composite scale', fr: 'Michael obtient 0,507 vs 0,473 pour DWP2 sur une échelle composite de 0 à 1' },
         },
         {
           src:     '/demos/cultural-sentiment-intelligence/09_hype_vs_concern.png',
-          caption: { en: 'Hype vs concern — the real tension behind pre-release buzz', fr: 'Hype vs inquiétude — la vraie tension derrière le buzz pré-sortie' },
-          note:    { en: 'DWP2 leads on hype but trails on sentiment quality — a pre-release risk pattern worth watching', fr: 'DWP2 mène sur la hype mais reste derrière sur la qualité du sentiment — un risque pré-sortie à surveiller' },
+          caption: { en: 'Hype vs concern, the real tension behind pre-release buzz', fr: 'Hype vs inquiétude, la vraie tension derrière le buzz pré-sortie' },
+          note:    { en: 'DWP2 leads on hype but trails on sentiment quality, a pre-release risk pattern worth watching', fr: 'DWP2 mène sur la hype mais reste derrière sur la qualité du sentiment, un risque pré-sortie à surveiller' },
         },
       ],
       highlights: [
         { en: 'Built from a real-life debate: which movie should we actually watch first?', fr: 'Né d’un vrai débat autour de moi : quel film devrait-on vraiment regarder en premier ?' },
-        { en: 'Automated 6h refresh cycle — the system keeps rereading the internet as opinions shift', fr: 'Actualisation automatisée toutes les 6h — le système relit Internet à mesure que les opinions évoluent' },
-        { en: 'Designed as a seasonal series — every few months, a new cultural signal gets tracked', fr: 'Pensé comme une série saisonnière — tous les quelques mois, un nouveau signal culturel est analysé' },
-        { en: 'Combines curiosity, automation and audience intelligence — not a movie review, a signal-reading system', fr: 'Mêle curiosité, automatisation et intelligence audience — pas une critique de film, un système de lecture des signaux' },
+        { en: 'Automated 6h refresh cycle, the system keeps rereading the internet as opinions shift', fr: 'Actualisation automatisée toutes les 6h, le système relit Internet à mesure que les opinions évoluent' },
+        { en: 'Designed as a seasonal series, every few months, a new cultural signal gets tracked', fr: 'Pensé comme une série saisonnière, tous les quelques mois, un nouveau signal culturel est analysé' },
+        { en: 'Combines curiosity, automation and audience intelligence, not a movie review, a signal-reading system', fr: 'Mêle curiosité, automatisation et intelligence audience, pas une critique de film, un système de lecture des signaux' },
       ],
     },
   },

@@ -160,8 +160,8 @@ export default function ExecutiveSnapshot() {
             </p>
             <p className="text-text-dim text-sm leading-relaxed max-w-2xl">
               {lang === 'en'
-                ? 'Football on weekends, hikes that reset the thinking, long conversations over a BBQ. The same curiosity that draws me toward consumer behavior — why people do what they do — makes these moments feel like continued fieldwork.'
-                : 'Football le weekend, randonnées qui remettent les idées en place, longues conversations autour d\'un BBQ. La même curiosité qui me pousse vers les comportements consommateurs — pourquoi les gens font ce qu\'ils font — fait de ces moments une forme de terrain continue.'}
+                ? 'Football on weekends, hikes that reset the thinking, long conversations over a BBQ. The same curiosity that draws me toward consumer behavior, why people do what they do, makes these moments feel like continued fieldwork.'
+                : 'Football le weekend, randonnées qui remettent les idées en place, longues conversations autour d\'un BBQ. La même curiosité qui me pousse vers les comportements consommateurs, pourquoi les gens font ce qu\'ils font, fait de ces moments une forme de terrain continue.'}
             </p>
           </div>
         </div>

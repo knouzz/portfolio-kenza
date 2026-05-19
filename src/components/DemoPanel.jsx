@@ -75,7 +75,7 @@ function ScreenshotGallery({ screenshots, lang, isActive }) {
     <div>
       {/* Label + counter */}
       <div className="flex items-center justify-between mb-4">
-        <SectionMeta>{lang === 'en' ? 'Snippets of the project — more to discuss!' : 'Aperçus du projet — à approfondir ensemble !'}</SectionMeta>
+        <SectionMeta>{lang === 'en' ? 'Snippets of the project, more to discuss!' : 'Aperçus du projet, à approfondir ensemble !'}</SectionMeta>
         {total > 1 && (
           <span className="font-mono text-[10px] text-text-dim -mt-4">
             {idx + 1} / {total}

@@ -37,7 +37,7 @@ export const signals = [
       sentimentWinner: 'Michael',
       hyper: {
         leader: 'The Devil Wears Prada 2',
-        insight: 'DWP2 generates stronger hype volume (index 0.48 vs 0.32) but weaker sentiment quality — a classic hype–quality divergence.',
+        insight: 'DWP2 generates stronger hype volume (index 0.48 vs 0.32) but weaker sentiment quality, a classic hype–quality divergence.',
       },
     },
 
@@ -94,7 +94,7 @@ export const signals = [
         ],
         clusters: [
           { label: 'Industry Analysts',  share: 67.1, sentiment: 0.165, excitement: 0.472, positive: 46.0, negative: 27.5, hype: 0.47, tone: 'Observational, cautious', dominant: ['fashion', 'sequel', 'meryl', 'thoughts'] },
-          { label: 'Fashion Insiders',   share: 19.1, sentiment: 0.118, excitement: 0.446, positive: 44.2, negative: 45.4, hype: 0.09, tone: 'Divided — excited & anxious', dominant: ['prada', 'devil', 'real', 'sequel'] },
+          { label: 'Fashion Insiders',   share: 19.1, sentiment: 0.118, excitement: 0.446, positive: 44.2, negative: 45.4, hype: 0.09, tone: 'Divided, excited & anxious', dominant: ['prada', 'devil', 'real', 'sequel'] },
           { label: 'Cautious Fans',      share: 9.1,  sentiment: 0.391, excitement: 0.719, positive: 90.2, negative: 9.8,  hype: 0.56, tone: 'Hopeful, engaged', dominant: ['can\'t wait', 'hoping', 'dynamics'] },
           { label: 'Nostalgia Advocates',share: 4.7,  sentiment: -0.548, excitement: 0.027, positive: 0,  negative: 100,  hype: 2.14, tone: 'Protective of original', dominant: ['anne hathaway', 'devastating', 'means emotionally'] },
         ],
@@ -103,11 +103,11 @@ export const signals = [
 
     // ── Strategic insights ───────────────────────────────────────────────────
     insights: [
-      { n: 1, signal: 'DIVERGENCE', text: 'Hype volume does not translate into positive perception. DWP2 leads hype signals (0.48 vs 0.32) while trailing on sentiment quality by 7.3pp — a textbook hype–quality gap.' },
-      { n: 2, signal: 'STABILITY',  text: "Michael's Legacy Believers cluster (86.4% of audience) represents the most stable sentiment base observed across the analysis — high share, low concern density, consistent tone." },
-      { n: 3, signal: 'RISK',       text: "The Nostalgia Advocates segment (DWP2, 4.7%) carries the highest concern signal of any cluster (2.14 avg hype signal, 100% negative rate) — a memory-protection risk that could amplify if early reviews disappoint." },
-      { n: 4, signal: 'PLATFORM',   text: 'Reddit sentiment gap is the widest cross-platform divergence: Michael +0.234 vs DWP2 +0.049. Reddit audiences are known early-adopter proxies — this gap is a leading indicator.' },
-      { n: 5, signal: 'ENGAGEMENT', text: 'Total engagement is near-identical across both films (5.74 vs 5.73 avg engagement score) — volume parity. The differentiator is entirely sentiment quality, not reach.' },
+      { n: 1, signal: 'DIVERGENCE', text: 'Hype volume does not translate into positive perception. DWP2 leads hype signals (0.48 vs 0.32) while trailing on sentiment quality by 7.3pp, a textbook hype–quality gap.' },
+      { n: 2, signal: 'STABILITY',  text: "Michael's Legacy Believers cluster (86.4% of audience) represents the most stable sentiment base observed across the analysis, high share, low concern density, consistent tone." },
+      { n: 3, signal: 'RISK',       text: "The Nostalgia Advocates segment (DWP2, 4.7%) carries the highest concern signal of any cluster (2.14 avg hype signal, 100% negative rate), a memory-protection risk that could amplify if early reviews disappoint." },
+      { n: 4, signal: 'PLATFORM',   text: 'Reddit sentiment gap is the widest cross-platform divergence: Michael +0.234 vs DWP2 +0.049. Reddit audiences are known early-adopter proxies, this gap is a leading indicator.' },
+      { n: 5, signal: 'ENGAGEMENT', text: 'Total engagement is near-identical across both films (5.74 vs 5.73 avg engagement score), volume parity. The differentiator is entirely sentiment quality, not reach.' },
     ],
 
     // ── French overrides ─────────────────────────────────────────────────────
@@ -117,9 +117,9 @@ export const signals = [
       question: 'Comparer les réactions des audiences en ligne autour de The Devil Wears Prada 2 vs Michael : quel film détient actuellement la plus forte dynamique culturelle, et qu\'est-ce que cela signifie pour la stratégie pré-sortie ?',
       methodology: [
         'Collecte de conversations d\'audience live depuis Reddit, YouTube et Google Trends : rafraîchi automatiquement toutes les 6 heures via un workflow n8n.',
-        'Score du ton, du niveau d\'excitation et de l\'intensité de préoccupation de chaque post — distinguant la vraie qualité d\'audience de la hype de surface, via scraping et organisation Python.',
+        'Score du ton, du niveau d\'excitation et de l\'intensité de préoccupation de chaque post, distinguant la vraie qualité d\'audience de la hype de surface, via scraping et organisation Python.',
         'Regroupement des audiences en 8 archétypes comportementaux distincts selon leur relation émotionnelle à chaque sortie.',
-        'Génération automatique de résumés d\'intelligence en langage clair — prêts à l\'action sans interprétation technique.',
+        'Génération automatique de résumés d\'intelligence en langage clair, prêts à l\'action sans interprétation technique.',
       ],
       verdict: {
         recommended:     'Michael',
@@ -129,15 +129,15 @@ export const signals = [
         sentimentWinner: 'Michael',
         hyper: {
           leader:  'The Devil Wears Prada 2',
-          insight: 'DWP2 génère un volume de hype plus fort (index 0,48 vs 0,32) mais une qualité de sentiment plus faible — une divergence hype-qualité classique.',
+          insight: 'DWP2 génère un volume de hype plus fort (index 0,48 vs 0,32) mais une qualité de sentiment plus faible, une divergence hype-qualité classique.',
         },
       },
       insights: [
-        { n: 1, signal: 'DIVERGENCE', text: 'Le volume de hype ne se traduit pas en perception positive. DWP2 mène sur les signaux de hype (0,48 vs 0,32) tout en étant derrière sur la qualité du sentiment de 7,3pp — un fossé hype-qualité typique.' },
-        { n: 2, signal: 'STABILITY',  text: 'Le cluster Legacy Believers de Michael (86,4% de l\'audience) représente la base de sentiment la plus stable observée dans l\'analyse — part élevée, faible densité de préoccupation, ton constant.' },
-        { n: 3, signal: 'RISK',       text: 'Le segment Nostalgia Advocates (DWP2, 4,7%) porte le signal de préoccupation le plus élevé de tous les clusters (2,14 signal hype moyen, 100% de taux négatif) — un risque de protection mémorielle qui pourrait s\'amplifier si les premières critiques déçoivent.' },
-        { n: 4, signal: 'PLATFORM',   text: 'L\'écart de sentiment sur Reddit est la plus grande divergence cross-plateforme : Michael +0,234 vs DWP2 +0,049. Les audiences Reddit sont des proxies early-adopter connus — cet écart est un indicateur avancé.' },
-        { n: 5, signal: 'ENGAGEMENT', text: 'L\'engagement total est quasi-identique entre les deux films (5,74 vs 5,73 score d\'engagement moyen) — parité de volume. Le différenciateur est entièrement la qualité du sentiment, pas la portée.' },
+        { n: 1, signal: 'DIVERGENCE', text: 'Le volume de hype ne se traduit pas en perception positive. DWP2 mène sur les signaux de hype (0,48 vs 0,32) tout en étant derrière sur la qualité du sentiment de 7,3pp, un fossé hype-qualité typique.' },
+        { n: 2, signal: 'STABILITY',  text: 'Le cluster Legacy Believers de Michael (86,4% de l\'audience) représente la base de sentiment la plus stable observée dans l\'analyse, part élevée, faible densité de préoccupation, ton constant.' },
+        { n: 3, signal: 'RISK',       text: 'Le segment Nostalgia Advocates (DWP2, 4,7%) porte le signal de préoccupation le plus élevé de tous les clusters (2,14 signal hype moyen, 100% de taux négatif), un risque de protection mémorielle qui pourrait s\'amplifier si les premières critiques déçoivent.' },
+        { n: 4, signal: 'PLATFORM',   text: 'L\'écart de sentiment sur Reddit est la plus grande divergence cross-plateforme : Michael +0,234 vs DWP2 +0,049. Les audiences Reddit sont des proxies early-adopter connus, cet écart est un indicateur avancé.' },
+        { n: 5, signal: 'ENGAGEMENT', text: 'L\'engagement total est quasi-identique entre les deux films (5,74 vs 5,73 score d\'engagement moyen), parité de volume. Le différenciateur est entièrement la qualité du sentiment, pas la portée.' },
       ],
     },
   },
@@ -147,7 +147,7 @@ export const signals = [
     id:      'gta6-digital-pulse',
     status:  'coming',
     quarter: 'Q4 2026',
-    title:   'GTA 6 — Digital Pulse',
+    title:   'GTA 6, Digital Pulse',
     subtitle: 'Pre-release cultural momentum & sentiment mapping',
     tags:    ['Gaming Culture', 'Social Listening', 'Hype Analysis'],
   },

@@ -215,14 +215,14 @@ export const projectBullets = {
   'la-redoute': {
     en: {
       context: [
-        'La Redoute — one of France\'s leading fashion and home e-commerce brands with access to raw acquisition and conversion data but no structured intelligence layer.',
+        'La Redoute, one of France\'s leading fashion and home e-commerce brands with access to raw acquisition and conversion data but no structured intelligence layer.',
         'Acquisition channels tracked in silos: paid search, social, email, and organic each reported independently with no cross-channel view of customer journey quality.',
         'The team couldn\'t identify which customer segments were generating genuine lifetime value versus high-acquisition, low-retention profiles.',
       ],
       challenge: [
         'Last-click attribution and siloed reporting made it impossible to understand which channels were actually driving quality customers vs. volume.',
         'Conversion analysis was retrospective and surface-level no visibility into where and why customers were dropping off.',
-        'Budget allocation was based on top-line traffic metrics, not on behavioral quality — creating systematic misallocation.',
+        'Budget allocation was based on top-line traffic metrics, not on behavioral quality, creating systematic misallocation.',
       ],
       approach: [
         { n: 1, text: 'Mapped the full customer journey: from first acquisition touchpoint to repeat purchase behavior identified 3+ distinct acquisition funnels.' },
@@ -233,7 +233,7 @@ export const projectBullets = {
       ],
       insights: [
         'Acquisition cost and customer quality were inversely correlated in certain channels the cheapest traffic was generating the highest-churn customers.',
-        'Basket behavior and repeat purchase patterns were the real quality differentiators between segment types — invisible under top-line conversion metrics.',
+        'Basket behavior and repeat purchase patterns were the real quality differentiators between segment types, invisible under top-line conversion metrics.',
         'Moving from monthly retrospective to weekly cycle review changed which decisions could be made not just how fast.',
       ],
       impact: [
@@ -245,17 +245,17 @@ export const projectBullets = {
     },
     fr: {
       context: [
-        'La Redoute — l\'une des premières enseignes françaises de mode et maison en e-commerce avec accès à des données d\'acquisition et conversion brutes mais pas de couche d\'intelligence structurée.',
+        'La Redoute, l\'une des premières enseignes françaises de mode et maison en e-commerce avec accès à des données d\'acquisition et conversion brutes mais pas de couche d\'intelligence structurée.',
         'Canaux d\'acquisition suivis en silos : search payant, social, email et organique reportaient indépendamment sans vision cross-canal de la qualité du parcours client.',
         'L\'équipe ne pouvait pas identifier quels segments clients généraient une vraie valeur vie versus des profils haute acquisition-faible rétention.',
       ],
       challenge: [
         'Attribution last-click et reporting en silos rendaient impossible de comprendre quels canaux généraient vraiment des clients de qualité vs. du volume.',
         'L\'analyse de conversion était rétrospective et superficielle aucune visibilité sur où et pourquoi les clients abandonnaient.',
-        'L\'allocation budgétaire basée sur les métriques de trafic global, pas sur la qualité comportementale — créant une mauvaise allocation systématique.',
+        'L\'allocation budgétaire basée sur les métriques de trafic global, pas sur la qualité comportementale, créant une mauvaise allocation systématique.',
       ],
       approach: [
-        { n: 1, text: 'Cartographie du parcours client complet : du premier point de contact d\'acquisition au comportement d\'achat répété — 3+ entonnoirs d\'acquisition distincts identifiés.' },
+        { n: 1, text: 'Cartographie du parcours client complet : du premier point de contact d\'acquisition au comportement d\'achat répété, 3+ entonnoirs d\'acquisition distincts identifiés.' },
         { n: 2, text: 'Construction d\'un modèle de données Power BI connectant coût d\'acquisition aux métriques de funnel de conversion et signaux de rétention en aval.' },
         { n: 3, text: 'Mesures DAX avancées : performance par segment client, comportement panier, patterns d\'upsell et tracking de rétention par cohorte.' },
         { n: 4, text: 'Couche de modélisation ROI campagnes reliant les dépenses à la valeur vie client, pas seulement à la conversion premier achat.' },
@@ -342,7 +342,7 @@ export const projectBullets = {
     en: {
       context: [
         'Supply chain team across a multi-SKU FMCG portfolio with no structured system for reading customer demand signals forecasting relied on intuition with a spreadsheet as the only paper trail.',
-        'Customer demand patterns — seasonality, promotional response, channel-specific velocity were not being systematically captured or modeled.',
+        'Customer demand patterns, seasonality, promotional response, channel-specific velocity were not being systematically captured or modeled.',
         'The margin of error was costing the business on both ends: stockouts during demand peaks and overstock during slowdowns.',
       ],
       challenge: [
@@ -351,7 +351,7 @@ export const projectBullets = {
         'The output had to be usable by non-analysts in supply chain planning not just analytically rigorous, but operationally actionable.',
       ],
       approach: [
-        { n: 1, text: 'Structured 3 years of sell-in and sell-out historical data by category, channel, and period — built clean analytical foundation before any modeling.' },
+        { n: 1, text: 'Structured 3 years of sell-in and sell-out historical data by category, channel, and period, built clean analytical foundation before any modeling.' },
         { n: 2, text: 'Identified seasonality indices per category using decomposition analysis quantified recurring patterns in customer purchasing cycles.' },
         { n: 3, text: 'Quantified promotional uplift coefficients by SKU and channel measured actual customer demand response to promotional events historically.' },
         { n: 4, text: 'Modeled channel-specific velocity differentials recognized that sell-out patterns differ meaningfully by retail environment and customer profile.' },
@@ -372,7 +372,7 @@ export const projectBullets = {
     fr: {
       context: [
         'Équipe supply chain sur un portefeuille FMCG multi-SKU sans système structuré pour lire les signaux de demande client les prévisions reposaient sur l\'intuition avec un tableur comme seule trace.',
-        'Les patterns de demande client saisonnalité, réponse promotionnelle, vélocité par canal — n\'étaient pas capturés ni modélisés de façon systématique.',
+        'Les patterns de demande client saisonnalité, réponse promotionnelle, vélocité par canal, n\'étaient pas capturés ni modélisés de façon systématique.',
         'La marge d\'erreur coûtait à l\'entreprise dans les deux sens : ruptures pendant les pics de demande et surstocks pendant les creux.',
       ],
       challenge: [
@@ -384,12 +384,12 @@ export const projectBullets = {
         { n: 1, text: 'Structuration de 3 ans de données historiques sell-in et sell-out par catégorie, canal et période fondation analytique propre avant tout modèle.' },
         { n: 2, text: 'Identification des indices de saisonnalité par catégorie via analyse de décomposition quantification des patterns récurrents dans les cycles d\'achat client.' },
         { n: 3, text: 'Quantification des coefficients d\'uplift promotionnel par SKU et canal mesure de la réponse réelle de la demande client aux événements promotionnels.' },
-        { n: 4, text: 'Modélisation des différentiels de vélocité par canal — reconnaissance que les patterns sell-out diffèrent significativement selon l\'environnement retail et le profil client.' },
+        { n: 4, text: 'Modélisation des différentiels de vélocité par canal, reconnaissance que les patterns sell-out diffèrent significativement selon l\'environnement retail et le profil client.' },
         { n: 5, text: 'Modèle de demande multi-facteurs avec capacité de scénarios, signalement automatisé des SKUs à risque élevé et reporting de précision en fin de période pour calibrage continu.' },
       ],
       insights: [
         'L\'uplift promotionnel était systématiquement surestimé en planification la réponse client réelle était 15-30% inférieure aux hypothèses sur les SKUs clés.',
-        'Les différentiels de vélocité par canal signifiaient que les données sell-in agrégées masquaient une variation significative au niveau SKU×canal — là où se trouvait le vrai risque.',
+        'Les différentiels de vélocité par canal signifiaient que les données sell-in agrégées masquaient une variation significative au niveau SKU×canal, là où se trouvait le vrai risque.',
         'Le reporting de précision fermant la boucle : savoir où le modèle se trompait permettait une amélioration continue dans les périodes suivantes.',
       ],
       impact: [
@@ -409,7 +409,7 @@ export const projectBullets = {
         'Brands end up reacting to defection events rather than anticipating the conditions that create switching intent.',
       ],
       challenge: [
-        'Moving beyond stated consumer preferences to identify the latent behavioral and attitudinal structures that actually predict switching decisions — not what people say, but what drives them.',
+        'Moving beyond stated consumer preferences to identify the latent behavioral and attitudinal structures that actually predict switching decisions, not what people say, but what drives them.',
         'Structuring a survey instrument that captured attitudinal data at each stage of the brand relationship, not just at the point of switching.',
         'Reducing a complex multi-variable attitudinal dataset to a model that was both statistically valid and commercially interpretable.',
       ],
@@ -451,7 +451,7 @@ export const projectBullets = {
         { n: 5, text: 'Mapping des archétypes sur des points d\'intervention spécifiques dans le cycle de vie 6A traduction de l\'output statistique en logique de ciblage pour la stratégie de rétention.' },
       ],
       insights: [
-        'La plupart des décisions de switching étaient prévisibles bien avant l\'événement de défection — pilotées par une érosion attitudinale aux stades Appeal et Ask du cycle 6A, pas au moment de la comparaison de prix.',
+        'La plupart des décisions de switching étaient prévisibles bien avant l\'événement de défection, pilotées par une érosion attitudinale aux stades Appeal et Ask du cycle 6A, pas au moment de la comparaison de prix.',
         'Quatre archétypes avec des chemins de switching significativement différents : chacun nécessitait un type d\'intervention différent à un stade différent de la relation.',
         'L\'ACP a révélé que la fidélité déclarée était un mauvais prédicteur de la propension réelle au switching les facteurs attitudinaux latents étaient bien plus prédictifs que les mesures auto-reportées.',
       ],
@@ -467,9 +467,9 @@ export const projectBullets = {
   'cultural-sentiment-intelligence': {
     en: {
       context: [
-        'Cultural releases — films, drops, brand moments generate enormous audience conversation before launch. Most of it goes unread, or arrives too late to act on.',
+        'Cultural releases, films, drops, brand moments generate enormous audience conversation before launch. Most of it goes unread, or arrives too late to act on.',
         'The gap: a continuous way to monitor what audiences are actually feeling not counting mentions, but distinguishing genuine excitement from anxiety-driven hype.',
-        'This evolved from a one-time audience analysis into an automated intelligence product — built to run continuously and deliver on schedule, without analyst intervention.',
+        'This evolved from a one-time audience analysis into an automated intelligence product, built to run continuously and deliver on schedule, without analyst intervention.',
       ],
       challenge: [
         'Designing a system that generates intelligence on a schedule rather than on demand running automatically every 6 hours without anyone triggering it.',
@@ -492,8 +492,8 @@ export const projectBullets = {
       impact: [
         'Continuous monitoring across 3 live data sources refreshed every 6 hours, zero manual input.',
         '8 audience segments with distinct behavioral and emotional profiles.',
-        'AI-generated summaries — stakeholder-ready intelligence, no analyst translation needed.',
-        'Automated alerts + Mon–Fri briefings — intelligence arrives on schedule, not on request.',
+        'AI-generated summaries, stakeholder-ready intelligence, no analyst translation needed.',
+        'Automated alerts + Mon–Fri briefings, intelligence arrives on schedule, not on request.',
         'Architecture built to extend to any cultural vertical or release type.',
       ],
     },

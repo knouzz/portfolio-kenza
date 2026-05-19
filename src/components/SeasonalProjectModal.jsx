@@ -526,8 +526,8 @@ export default function SeasonalProjectModal({ onClose, lang }) {
             <div>
               <p className="font-mono text-[9px] text-text-dim tracking-widest mb-4">
                 {lang === 'en'
-                  ? '8 audience clusters identified across both films — 4 featured below'
-                  : '8 segments d\'audience identifiés — 4 présentés ci-dessous'}
+                  ? '8 audience clusters identified across both films, 4 featured below'
+                  : '8 segments d\'audience identifiés, 4 présentés ci-dessous'}
               </p>
               <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {featuredArchetypes.map(({ film, cluster }) => (
