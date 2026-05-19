@@ -144,7 +144,7 @@ demo: {
         "L'equipe est passee de retrospectives mensuelles a une intelligence quotidienne. Les patterns comportementaux sont devenus visibles en cours de mois.",
     },
     demo: {
-      video: { url: 'https://www.youtube.com/embed/PU1eY80vzaw', caption: { en: 'Sales Performance Dashboard walkthrough.', fr: 'Parcours du dashboard de performance commerciale.' } },
+      video: { url: 'https://www.youtube.com/embed/whRvN3wUlRA', caption: { en: 'Sales Performance Dashboard walkthrough.', fr: 'Parcours du dashboard de performance commerciale.' } },
       screenshots: [],
       highlights: [
         {
