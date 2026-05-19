@@ -60,43 +60,32 @@ fr: {
 demo: {
   video: null,
   screenshots: [
-    {
-      src: ‘/demos/product-data-hub/01.png’,
-      caption: { en: ‘Product Hub — Screenshot 1’, fr: ‘Product Hub — Capture 1’ },
-    },
-    {
-      src: ‘/demos/product-data-hub/02.png’,
-      caption: { en: ‘Product Hub — Screenshot 2’, fr: ‘Product Hub — Capture 2’ },
-    },
-    {
-      src: ‘/demos/product-data-hub/03.png’,
-      caption: { en: ‘Product Hub — Screenshot 3’, fr: ‘Product Hub — Capture 3’ },
-    },
-    {
-      src: ‘/demos/product-data-hub/04.png’,
-      caption: { en: ‘Product Hub — Screenshot 4’, fr: ‘Product Hub — Capture 4’ },
-    },
+    { src: '/demos/product-data-hub/01.png', caption: { en: 'Product Hub - Screenshot 1', fr: 'Product Hub - Capture 1' } },
+    { src: '/demos/product-data-hub/02.png', caption: { en: 'Product Hub - Screenshot 2', fr: 'Product Hub - Capture 2' } },
+    { src: '/demos/product-data-hub/03.png', caption: { en: 'Product Hub - Screenshot 3', fr: 'Product Hub - Capture 3' } },
+    { src: '/demos/product-data-hub/04.png', caption: { en: 'Product Hub - Screenshot 4', fr: 'Product Hub - Capture 4' } },
   ],
+
   highlights: [
     {
-      en: ‘Single-entry workflow replacing repetitive multi-file product creation’,
-      fr: ‘Workflow à saisie unique remplaçant les ressaisies multiples’,
+      en: 'Single-entry workflow replacing repetitive multi-file product creation',
+      fr: 'Workflow à saisie unique remplaçant les ressaisies multiples',
     },
     {
-      en: ‘Automated IT file generation through Excel + VBA logic’,
-      fr: ‘Génération automatisée des fichiers IT via Excel et VBA’,
+      en: 'Automated IT file generation through Excel + VBA logic',
+      fr: 'Génération automatisée des fichiers IT via Excel et VBA',
     },
     {
-      en: ‘Structured Home interface improving onboarding and team coordination’,
-      fr: ‘Interface Home structurée facilitant la coordination des équipes’,
+      en: 'Structured Home interface improving onboarding and team coordination',
+      fr: 'Interface Home structurée facilitant la coordination des équipes',
     },
     {
-      en: ‘Integrated archive system preserving centralized product history’,
-      fr: ‘Système d\’archivage intégré centralisant l\’historique produit’,
+      en: 'Integrated archive system preserving centralized product history',
+      fr: 'Système d’archivage intégré centralisant l’historique produit',
     },
     {
-      en: ‘Power BI performance dashboard currently in development’,
-      fr: ‘Dashboard Power BI de suivi de performance en cours de développement’,
+      en: 'Power BI performance dashboard currently in development',
+      fr: 'Dashboard Power BI de suivi de performance en cours de développement',
     },
   ],
 },  
