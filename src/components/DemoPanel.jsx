@@ -75,7 +75,7 @@ function ScreenshotGallery({ screenshots, lang, isActive }) {
     <div>
       {/* Label + counter */}
       <div className="flex items-center justify-between mb-4">
-        <SectionMeta>{lang === 'en' ? 'Screenshots' : 'Captures'}</SectionMeta>
+        <SectionMeta>{lang === 'en' ? 'Snippets of the project — more to discuss!' : 'Aperçus du projet — à approfondir ensemble !'}</SectionMeta>
         {total > 1 && (
           <span className="font-mono text-[10px] text-text-dim -mt-4">
             {idx + 1} / {total}
@@ -84,12 +84,12 @@ function ScreenshotGallery({ screenshots, lang, isActive }) {
       </div>
 
       {/* Main image */}
-      <div className="group relative rounded-xl overflow-hidden border border-border bg-panel aspect-video flex items-center justify-center">
+      <div className="group relative rounded-xl overflow-hidden border border-border bg-panel flex items-center justify-center">
         <img
           key={idx}
           src={shot.src}
           alt={shot.caption?.[lang] || `Screenshot ${idx + 1}`}
-          className="w-full h-full object-cover"
+          className="w-full h-auto object-contain"
           loading="lazy"
         />
 

@@ -14,11 +14,11 @@ export const content = {
     hero: {
       sysLabel:    'Open to roles focused on customer understanding, performance visibility, and smarter operational systems.',
       name:        'Kenza\nEn-nassef',
-      role:        'CONSUMER & MARKETING ANALYST · BRAND INTELLIGENCE · DATA STRATEGY',
-      tagline:     "My career didn't start in analytics. It started in storytelling.",
-      taglineBold: 'The more I worked on campaigns and brands, the more I realized the interesting questions were happening underneath the numbers.',
+      role:        'CONSUMER & MARKETING ANALYST · BRAND INTELLIGENCE · DATA STRATEGY.',
+      tagline:     "I don't think people wake up wanting \"brand experiences\".",
+      taglineBold: 'They just want things to make sense, products that feel relevant, communication that feels human, and experiences that don’t create friction.',
       sub:
-      'Why people engage. Why they trust. Why they switch. Why some products create momentum while others quietly lose attention. That’s the layer I like working in now, between customer behavior, business intelligence, and execution.',
+      'My work sits somewhere around that idea, understanding behaviour well enough to help businesses feel a little less disconnected from the people they’re built for.',
       cta1: 'Explore Projects',
       cta2: 'Get in Touch',
       panel: {
@@ -28,10 +28,10 @@ export const content = {
         chart:   'PERFORMANCE TRAJECTORY',
         footer:  'KENZA EN-NASSEF // v2.0',
         metrics: [
-          { label: 'PROJECTS',    value: 12,  suffix: '+',    sublabel: 'delivered' },
-          { label: 'MARKETS',      value: 5, suffix: '+',  sublabel: 'explored' },
-          { label: 'EXPERIENCE',  value: 3,   suffix: '+ YRS', sublabel: 'analytical' },
-          { label: 'STATUS',      value: null, text: 'OPEN',  sublabel: 'to roles with impact' },
+          { label: 'PROJECTS.',    value: 12,  suffix: '+',    sublabel: 'delivered' },
+          { label: 'MARKETS.',      value: 5, suffix: '+',  sublabel: 'explored' },
+          { label: 'EXPERIENCE.',  value: 3,   suffix: '+ YRS', sublabel: 'analytical' },
+          { label: 'STATUS.',      value: null, text: 'OPEN',  sublabel: 'to roles with impact' },
         ],
       },
     },
@@ -166,17 +166,17 @@ export const content = {
     },
 
     hero: {
-      sysLabel:    'CONSUMER ANALYTICS · INTELLIGENCE MARKETING · PERFORMANCE MARQUES & CAMPAGNES',
+      sysLabel:    'CONSUMER ANALYTICS · INTELLIGENCE MARKETING · PERFORMANCE MARQUES & CAMPAGNES.',
       name:        'Kenza\nEn-nassef',
-      role:        'ANALYSTE CONSUMER & MARKETING · INTELLIGENCE DE MARQUE · DATA STRATEGY',
+      role:        'ANALYSTE CONSUMER & MARKETING · INTELLIGENCE DE MARQUE · DATA STRATEGY.',
       tagline:
-  "Ma carrière n’a pas commencé dans la data. Elle a commencé dans le storytelling.",
+  "Je ne pense pas que les gens se réveillent en voulant des \"expériences de marque\".",
 
 taglineBold:
-  "Plus je travaillais sur des campagnes et des marques, plus je réalisais que les vraies questions se trouvaient derrière les chiffres.",
+  "Ils veulent juste que les choses aient du sens, des produits qui semblent pertinents, une communication qui semble humaine, et des expériences sans friction.",
 
 sub:
-  "Pourquoi les gens s’engagent. Pourquoi ils font confiance. Pourquoi ils changent de marque. Pourquoi certains produits créent naturellement de l’élan pendant que d’autres perdent discrètement l’attention des consommateurs. C’est dans cet espace que j’aime travailler aujourd’hui : à l’intersection du comportement client, des décisions business et de l’exécution.",
+  "Mon travail gravite autour de cette idée : comprendre les comportements suffisamment bien pour aider les entreprises à se sentir un peu moins déconnectées des gens pour qui elles ont été créées.",
 
 cta1:
   "Explorer les projets",
@@ -188,10 +188,10 @@ cta1:
         chart:   'TRAJECTOIRE PERFORMANCE',
         footer:  'KENZA EN-NASSEF // v2.0',
         metrics: [
-          { label: 'PROJETS',     value: 12,  suffix: '+',    sublabel: 'livrés' },
-          { label: 'MARCHÉS',      value: 5, suffix: '+', sublabel: 'explorés' },
-          { label: 'EXPÉRIENCE',  value: 3,   suffix: '+ ANS', sublabel: 'analytique' },
-          { label: 'STATUT',      value: null, text: 'DISPO',  sublabel: 'pour des projets à impact'},
+          { label: 'PROJETS.',     value: 12,  suffix: '+',    sublabel: 'livrés' },
+          { label: 'MARCHÉS.',      value: 5, suffix: '+', sublabel: 'explorés' },
+          { label: 'EXPÉRIENCE.',  value: 3,   suffix: '+ ANS', sublabel: 'analytique' },
+          { label: 'STATUT.',      value: null, text: 'DISPO',  sublabel: 'pour des projets à impact'},
         ],
       },
     },
@@ -208,13 +208,13 @@ cta1:
         { value: '4+',   label: "Années d'expérience" },
         { value: '12+',  label: 'Projets livrés' },
         { value: '4',    label: 'Domaines sectoriels' },
-        { value: 'OPEN', label: 'Aux nouvelles opportunités' },
+        { value: 'OPEN.', label: 'Aux nouvelles opportunités' },
       ],
       disciplines: [
-          'Reporting stratégique & visualisation de données',
+          'Reporting stratégique & visualisation de données.',
   'Analyse des comportements consommateurs',
   'Intelligence marketing & performance',
-  'Optimisation des processus & automatisation',
+  'Optimisation des processus & automatisation.',
       ],
     },
 

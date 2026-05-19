@@ -14,81 +14,91 @@ en: {
   subtitle: 'Operational Workflow & Product Data Automation System',
 
   impact:
-    'I designed and developed an internal operational system that transformed how Sushi Shop creates and manages products reducing manual work, eliminating repetitive input and turning fragmented Excel workflows into a centralized, scalable process.',
+    'I designed an Excel and VBA system that transformed how Sushi Shop creates products, replacing fragmented workflows with a single entry point that automates everything downstream.',
 
   context:
-    'At Sushi Shop, launching a product required multiple teams to manually enter the same information across several disconnected Excel files. Marketing, NPD, IT and international operations all worked in parallel, creating a slow, repetitive and error-prone workflow.',
+    'Launching a product at Sushi Shop meant multiple teams manually entering the same data across disconnected Excel files. Slow, repetitive and error-prone.',
 
   problem:
-    'Every new product required hours of duplicate data entry across recipe sheets, product information files and multiple IT documents. A single mistake could impact cash registers, kiosks or digital platforms. Teams spent more time managing spreadsheets than focusing on strategy, launches or performance.',
+    'Every product launch required hours of duplicate data entry. One mistake could break cash registers, kiosks or digital platforms.',
 
   approach:
-    'I started by mapping the entire product creation workflow from end to end, identifying bottlenecks, duplicated tasks and communication gaps between teams. Through field observations, interviews and process analysis, I redesigned the workflow around a single principle: input data once, automate everything else.',
+    'I mapped the full workflow end to end, identified every duplication and bottleneck, then redesigned it around one principle: enter data once, automate the rest.',
 
   solution:
-    'I built Product Hub, an Excel + VBA operational system designed to centralize product data and automate downstream IT workflows. The tool includes a structured Home interface, automated IT file generation, archive management, role-based workflows and a Power BI performance layer currently in development.',
+    'Product Hub centralises product data and automates IT file generation via Excel and VBA, with a structured Home interface, archive system and a Power BI layer in development.',
 
   result:
-    'Product creation time dropped from 2 hours to 30 minutes per product (-75%). The system saves an estimated 360 hours annually, significantly reduces human error and improves coordination between marketing, IT and operational teams. Product Hub was officially presented to leadership and cross-functional teams, receiving strong internal validation.',
+    'Creation time dropped from 2 hours to 30 minutes (-75%). The system saves 360 hours per year and was validated by leadership across teams.',
 
 },
 
 fr: {
   title:    'Product Hub',
-  subtitle: 'Système d’automatisation des workflows et données produits',
+  subtitle: "Système d'automatisation des workflows et données produits",
 
   impact:
-    'Conception et développement d’un système opérationnel interne ayant transformé la manière dont Sushi Shop crée et gère ses produits en réduisant les tâches manuelles, les ressaisies et en centralisant des workflows auparavant fragmentés.',
+    "J'ai concu un systeme Excel et VBA qui a transforme la creation produit chez Sushi Shop, remplacant des workflows fragmentes par un point d'entree unique automatisant tout en aval.",
 
   context:
-    'Chez Sushi Shop, le lancement d’un produit impliquait plusieurs équipes devant saisir les mêmes informations dans différents fichiers Excel indépendants. Les équipes marketing, NPD, IT et opérations internationales travaillaient en parallèle dans un processus long, répétitif et peu structuré.',
+    "Lancer un produit chez Sushi Shop impliquait plusieurs equipes saisissant les memes donnees dans des fichiers Excel deconnectes. Lent, repetitif et source d'erreurs.",
 
   problem:
-    'Chaque nouveau produit nécessitait plusieurs heures de ressaisie entre fiches recettes, fichiers marketing et documents IT. Une simple erreur pouvait avoir un impact direct sur les caisses, les bornes ou les plateformes digitales. Les équipes passaient davantage de temps à gérer des fichiers qu’à se concentrer sur la stratégie et la performance.',
+    "Chaque lancement necessitait des heures de ressaisie. Une seule erreur pouvait impacter les caisses, les bornes ou les plateformes digitales.",
 
   approach:
-    'J’ai commencé par analyser l’ensemble du workflow de création produit afin d’identifier les points de friction, les doublons et les problèmes de coordination entre équipes. À travers des observations terrain, des entretiens et une analyse des processus, j’ai repensé le fonctionnement autour d’un principe simple : saisir l’information une seule fois et automatiser le reste.',
+    "J'ai analyse le workflow de bout en bout, identifie chaque doublon et point de blocage, puis repense l'ensemble autour d'un principe : saisir une fois, automatiser le reste.",
 
   solution:
-    'J’ai développé Product Hub, un système opérationnel conçu sur Excel et VBA permettant de centraliser les données produits et d’autatiser les workflows IT. L’outil intègre une interface Home structurée, la génération automatique des fichiers IT, un système d’archivage, des workflows organisés par équipe ainsi qu’une couche analytique connectée à Power BI actuellement en développement.',
+    "Product Hub centralise les donnees produit et automatise la generation des fichiers IT via Excel et VBA, avec une interface Home structuree et une couche Power BI en developpement.",
 
   result:
-    'Le temps de création d’un produit est passé de 2 heures à 30 minutes (-75 %). Le système permet d’économiser environ 360 heures par an, réduit fortement les erreurs humaines et améliore la coordination entre les équipes marketing, IT et opérations. Product Hub a été présenté aux équipes et à la direction marketing avec des retours très positifs.',
+    "Le temps de creation est passe de 2h a 30 min (-75%). Le systeme economise 360 heures par an et a ete valide par la direction.",
 
 },
 
 demo: {
   video: null,
   screenshots: [
-    { src: '/demos/product-data-hub/01.png', caption: { en: 'Product Hub - Screenshot 1', fr: 'Product Hub - Capture 1' } },
-    { src: '/demos/product-data-hub/02.png', caption: { en: 'Product Hub - Screenshot 2', fr: 'Product Hub - Capture 2' } },
-    { src: '/demos/product-data-hub/03.png', caption: { en: 'Product Hub - Screenshot 3', fr: 'Product Hub - Capture 3' } },
-    { src: '/demos/product-data-hub/04.png', caption: { en: 'Product Hub - Screenshot 4', fr: 'Product Hub - Capture 4' } },
+    { src: '/demos/product-data-hub/01.png', caption: { en: 'Product Hub - Home (where user can start and end the product launch process).', fr: 'Product Hub - Accueil (point de depart et darrivee du processus de lancement produit).' } },
+    { src: '/demos/product-data-hub/02.png', caption: { en: 'Product Hub - Raw data organisation.', fr: 'Product Hub - Organisation des donnees brutes.' } },
+    { src: '/demos/product-data-hub/03.png', caption: { en: 'Product Hub - Mapping organisation.', fr: 'Product Hub - Organisation du mapping.' } },
+    { src: '/demos/product-data-hub/04.png', caption: { en: 'Product Hub - VBA code automation.', fr: 'Product Hub - Automatisation du code VBA.' } },
   ],
 
   highlights: [
     {
-      en: 'Single-entry workflow replacing repetitive multi-file product creation',
-      fr: 'Workflow à saisie unique remplaçant les ressaisies multiples',
+      en: 'Single-entry workflow replacing repetitive multi-file product creation.',
+
+      fr: 'Workflow à saisie unique remplaçant les ressaisies multiples.',
+
     },
     {
-      en: 'Automated IT file generation through Excel + VBA logic',
-      fr: 'Génération automatisée des fichiers IT via Excel et VBA',
+      en: 'Automated IT file generation through Excel + VBA logic.',
+
+      fr: 'Génération automatisée des fichiers IT via Excel et VBA.',
+
     },
     {
-      en: 'Structured Home interface improving onboarding and team coordination',
-      fr: 'Interface Home structurée facilitant la coordination des équipes',
+      en: 'Structured Home interface improving onboarding and team coordination.',
+
+      fr: 'Interface Home structurée facilitant la coordination des équipes.',
+
     },
     {
-      en: 'Integrated archive system preserving centralized product history',
-      fr: 'Système d’archivage intégré centralisant l’historique produit',
+      en: 'Integrated archive system preserving centralized product history.',
+
+      fr: "Système d'archivage intégré centralisant l'historique produit.",
+
     },
     {
-      en: 'Power BI performance dashboard currently in development',
-      fr: 'Dashboard Power BI de suivi de performance en cours de développement',
+      en: 'Power BI performance dashboard currently in development.',
+
+      fr: 'Dashboard Power BI de suivi de performance en cours de développement.',
+
     },
   ],
-},  
+},
   },
 
   {
@@ -105,53 +115,60 @@ demo: {
       title:    'Sales Performance Dashboard',
       subtitle: 'Customer & Commercial Intelligence Platform',
       impact:
-        'I replaced monthly PowerPoint decks with a live dashboard that lets sales and marketing teams see what\'s driving results today not four weeks from now.',
+        'I replaced monthly PowerPoint decks with a live Power BI platform giving sales and marketing teams daily visibility into what is actually driving results.',
       context:
-        'Our commercial teams were flying blind between monthly reports. By the time numbers were compiled, the window to act had closed. There was no simple way to see which customers were buying, which channels were faltering or whether promotions were paying off.',
+        'Commercial teams had no view between monthly reports. By the time data arrived, the moment to act had already passed.',
       problem:
-        'Without timely insight into customer patterns and channel dynamics, decisions defaulted to gut feeling. High-value segments weren\'t spotted in time, underperforming channels weren\'t corrected quickly enough, and the data existed but wasn\'t accessible when it mattered.',
+        'Without real-time insight, decisions defaulted to gut feel. High-value segments were not caught in time and underperforming channels were not corrected fast enough.',
       approach:
-        'I worked backwards from the decisions managers needed to make. What signals tell a regional lead where to focus today? What can a busy manager digest in 30 seconds and act on? I designed the KPI architecture around those answers rather than whatever data happened to be available.',
+        'I worked backwards from the decisions managers needed to make, building the KPI architecture around real commercial questions rather than available data.',
       solution:
-        'A Power BI platform updating daily across three regions, covering customer segment performance, channel acquisition and conversion, product trends, promotion effectiveness and target-versus-actual tracking. It\'s accessible on any device and uses alert logic to surface anomalies automatically.',
+        'A daily-updating Power BI platform across three regions covering customer segments, acquisition and conversion, promotions and target-vs-actual tracking.',
       result:
-        'The team moved from monthly retrospectives to daily operational intelligence. Behaviour patterns became visible mid-month, enabling proactive intervention. One regional manager spotted a distribution gap mid-cycle that would have cost significant volume — something the old system would have missed.',
+        'The team moved from monthly retrospectives to daily intelligence. Behaviour patterns became visible mid-month, enabling faster and better-grounded decisions.',
     },
     fr: {
       title:    'Dashboard Performance Commerciale',
       subtitle: "Plateforme d'intelligence client & commerciale",
       impact:
-        'J\'ai remplacé des présentations mensuelles par un tableau de bord en direct qui permet aux équipes de voir ce qui motive les résultats aujourd\'hui pas dans quatre semaines.',
+        "J'ai remplace les presentations mensuelles par une plateforme Power BI en direct donnant aux equipes commerciales une visibilite quotidienne sur ce qui drive les resultats.",
       context:
-        "Les équipes commerciales naviguaient à l'aveugle entre les rapports mensuels. Quand les chiffres arrivaient, il était trop tard pour agir. Impossible de voir simplement quels clients achetaient, quels canaux faiblissaient ou si les promotions étaient rentables.",
+        "Les equipes naviguaient a l'aveugle entre les rapports mensuels. Quand les chiffres arrivaient, il etait trop tard pour agir.",
       problem:
-        "Sans visibilité rapide sur les comportements clients et la dynamique des canaux, les décisions se prenaient à l'intuition. Les segments à forte valeur n'étaient pas repérés à temps, les canaux sous-performants n'étaient pas corrigés assez vite, et les données existaient mais n'étaient pas accessibles au bon moment.",
+        "Sans visibilite en temps reel, les decisions reposaient sur l'intuition. Les segments a forte valeur n'etaient pas identifies a temps.",
       approach:
-        "J'ai travaillé à rebours des décisions nécessaires. Quels signaux indiquent à un responsable régional où se concentrer aujourd'hui ? Que peut lire un manager pressé en 30 secondes et transformer en action ? J'ai structuré l'architecture KPI en fonction de ces réponses plutôt qu'en fonction des données disponibles.",
+        "J'ai travaille a rebours des decisions que les managers devaient prendre, en construisant l'architecture KPI autour de vraies questions commerciales.",
       solution:
-        "Une plateforme Power BI mise à jour quotidiennement sur trois régions, couvrant la performance par segment client, l'acquisition et la conversion par canal, les tendances produit, l'efficacité promotionnelle et le suivi objectif-versus-réalisé. Accessible sur tous les appareils et dotée d'alertes pour remonter automatiquement les anomalies.",
+        "Une plateforme Power BI mise a jour quotidiennement sur trois regions couvrant segments clients, acquisition, conversion, promotions et suivi objectif-versus-realise.",
       result:
-        "L'équipe est passée de rétrospectives mensuelles à une intelligence opérationnelle quotidienne. Les patterns comportementaux sont devenus visibles en cours de mois, permettant des interventions proactives. Un responsable régional a détecté une lacune de distribution en milieu de cycle qui aurait coûté un volume important — un signal qu'on aurait manqué auparavant.",
+        "L'equipe est passee de retrospectives mensuelles a une intelligence quotidienne. Les patterns comportementaux sont devenus visibles en cours de mois.",
     },
     demo: {
-      video: null,
+      video: { url: '/demos/sales-dashboard/demo.mp4', caption: { en: 'Sales Performance Dashboard walkthrough.', fr: 'Parcours du dashboard de performance commerciale.' } },
       screenshots: [],
       highlights: [
         {
-          en: 'Live customer segment performance tracking by channel and territory',
-          fr: 'Suivi en direct de la performance par segment client, canal et territoire',
+          en: 'Live customer segment performance tracking by channel and territory.',
+
+          fr: 'Suivi en direct de la performance par segment client, canal et territoire.',
+
         },
         {
-          en: 'Acquisition and conversion funnel analysis across three regions',
-          fr: "Analyse des entonnoirs d'acquisition et de conversion sur trois régions",
+          en: 'Acquisition and conversion funnel analysis across three regions.',
+
+          fr: "Analyse des entonnoirs d'acquisition et de conversion sur trois régions.",
+
         },
         {
-          en: 'Promotion effectiveness overlaid with behavioural trend data',
-          fr: 'Efficacité promotionnelle croisée avec les tendances comportementales',
+          en: 'Promotion effectiveness overlaid with behavioural trend data.',
+
+          fr: 'Efficacité promotionnelle croisée avec les tendances comportementales.',
         },
         {
-          en: 'Daily target-vs-actual KPI dashboard — updated and accessible across all devices',
-          fr: 'Tableau KPI quotidien objectif-versus-réalisé — mis à jour et accessible sur tous les appareils',
+          en: 'Daily target-vs-actual KPI dashboard — updated and accessible across all devices.',
+
+          fr: 'Tableau KPI quotidien objectif-versus-réalisé — mis à jour et accessible sur tous les appareils.',
+
         },
       ],
     },
@@ -171,53 +188,61 @@ demo: {
       title:    'Collaboration Performance Analytics',
       subtitle: 'Customer & Commercial Performance Intelligence',
       impact:
-        'I created a single performance compass for retail partners and our commercial team making joint planning evidence-based rather than assumption-driven.',
+        'I built Power BI dashboards tracking collab campaign performance, giving managers clear visibility into what works and who to partner with next.',
       context:
-        'Working across Belgium, the Netherlands and Luxembourg meant juggling different reporting styles, metrics and stories from each side. Without a shared view of how customers behaved and how products performed, planning sessions turned into battles of opinion.',
+        'The brand ran regular collabs with artists and major brands. After each one, performance analysis meant digging through spreadsheets with no shared view.',
       problem:
-        'Everyone measured performance differently, tracked different customer metrics and drew their own conclusions. There was no shared visibility into behaviour trends, channel differences or product success by retail environment. Plans were built on competing hypotheses rather than common evidence.',
+        'No easy way to compare a niche artist with a tight community against a big brand with a diverse audience. The data existed but was not readable.',
       approach:
-        'I built the analysis from the customer up. I mapped purchasing patterns by channel and segment, identified what truly influenced decisions, and designed a KPI model reflecting real commercial dynamics rather than administrative compromise.',
+        'I mapped the decisions managers needed to make: which partner profiles generate the best engagement quality and which communities actually convert.',
       solution:
-        'A commercial intelligence system unifying customer and product metrics, automating data pulls from retail partners, analysing behavioural trends by channel and segment, and setting a structured review cadence. Both sides now see the same facts in the same format at the same time.',
+        'Power BI dashboards tracking reach, engagement quality, audience profile and conversion per collab, with side-by-side partner comparisons built in.',
       result:
-        'Customer behaviour and product performance became visible and comparable across the Benelux market. Planning shifted from guesswork to evidence. Quarterly reviews now focus on behavioural insights and commercial optimisation, improving alignment and outcomes.',
+        'Managers can now review collab results in minutes and make grounded decisions on when to go for depth (tight artist community) versus breadth (big brand audience).',
     },
     fr: {
       title:    'Analytics de Performance Collaborative',
       subtitle: 'Intelligence performance client & commerciale',
       impact:
-        'J\'ai créé un compas de performance partagé pour les partenaires retail et notre équipe commerciale pour des plans basés sur des preuves plutôt que sur des opinions.',
+        "J'ai construit des dashboards Power BI pour suivre la performance des campagnes collab, donnant aux managers une visibilite claire sur ce qui fonctionne et avec qui collaborer ensuite.",
       context:
-        "Travailler en Belgique, aux Pays-Bas et au Luxembourg signifiait jongler avec des styles de reporting, des métriques et des récits différents de chaque côté. Sans vue partagée du comportement client et de la performance produit, les sessions de planification devenaient des affrontements d'opinion.",
+        "La marque menait des collaborations regulieres avec des artistes et de grandes marques. Analyser les resultats necessitait de fouiller des tableurs sans vue partagee.",
       problem:
-        "Chacun mesurait la performance différemment, suivait des métriques clients différentes et tirait ses propres conclusions. Pas de visibilité partagée sur les tendances comportementales, les différences de canal ou la réussite produit selon l'environnement retail. Les plans reposaient sur des hypothèses concurrentes plutôt que sur des preuves communes.",
+        "Impossible de comparer facilement un artiste de niche a communaute engagee contre une grande marque a audience diversifiee. Les donnees existaient sans etre lisibles.",
       approach:
-        "J'ai construit l'analyse à partir du client. J'ai cartographié les patterns d'achat par canal et segment, identifié ce qui influençait réellement les décisions et conçu un modèle KPI reflétant la dynamique commerciale réelle plutôt qu'un compromis administratif.",
+        "J'ai cartographie les decisions que les managers devaient prendre : quels profils generent le meilleur engagement et quelles communautes convertissent vraiment.",
       solution:
-        "Un système d'intelligence commerciale unifiant les métriques client et produit, automatisant l'extraction des données des partenaires, analysant les tendances comportementales par canal et segment, et fixant une cadence de revue structurée. Les deux parties voient désormais les mêmes faits, sous la même forme, au même moment.",
+        "Dashboards Power BI suivant portee, qualite d'engagement, profil audience et conversion par collab, avec comparaison de partenaires integree.",
       result:
-        "Le comportement client et la performance produit sont devenus visibles et comparables sur le marché Benelux. La planification est passée de la conjecture à la preuve. Les revues trimestrielles se concentrent sur les insights comportementaux et l'optimisation commerciale, améliorant l'alignement et les résultats.",
+        "Les managers analysent les resultats en quelques minutes et decidient entre profondeur (artiste a communaute soudee) et largeur (grande marque a audience diverse).",
     },
     demo: {
       video: null,
       screenshots: [],
       highlights: [
         {
-          en: 'Unified customer and product performance metrics across all retail partnerships',
-          fr: 'Métriques unifiées de performance client et produit sur tous les partenariats retail',
+          en: 'Unified customer and product performance metrics across all retail partnerships.',
+
+          fr: 'Métriques unifiées de performance client et produit sur tous les partenariats retail.',
+
         },
         {
-          en: 'Behavioural trend analysis segmented by channel, period and customer profile',
-          fr: 'Analyse des tendances comportementales par canal, période et profil client',
+          en: 'Behavioural trend analysis segmented by channel, period and customer profile.',
+
+          fr: 'Analyse des tendances comportementales par canal, période et profil client.',
+
         },
         {
-          en: 'Automated data pulls from retail systems with built-in reconciliation',
-          fr: 'Extractions automatisées depuis les systèmes retail avec réconciliation intégrée',
+          en: 'Automated data pulls from retail systems with built-in reconciliation.',
+
+          fr: 'Extractions automatisées depuis les systèmes retail avec réconciliation intégrée.',
+
         },
         {
-          en: 'Structured quarterly review cadence with shared KPI framework',
-          fr: 'Cadence de revue trimestrielle structurée avec cadre KPI partagé',
+          en: 'Structured quarterly review cadence with shared KPI framework.',
+
+          fr: 'Cadence de revue trimestrielle structurée avec cadre KPI partagé.',
+
         },
       ],
     },
@@ -237,53 +262,61 @@ demo: {
       title:    'La Redoute — E-Commerce Intelligence',
       subtitle: 'Customer & Acquisition Performance Platform',
       impact:
-        'My team and I built an end-to-end e-commerce intelligence system that connects acquisition spend to lifetime value turning fragmented data into clear commercial decisions.',
+        'I built an e-commerce intelligence platform connecting acquisition spend to customer lifetime value, giving the team a clear read on which channels actually work.',
       context:
-        'La Redoute needed more than traffic reports; they needed to know which acquisition channels were creating loyal shoppers and which ones were burning budget. Raw data existed, but there was no unified view tying acquisition, conversion and retention together.',
+        'La Redoute needed to know which acquisition channels created loyal shoppers. Data existed but nothing tied acquisition, conversion and retention together.',
       problem:
-        'Channels were measured in silos — paid search, social, email and organic each reported separately with no cross-journey view. Conversion analysis was backward-looking and shallow. The team couldn\'t tell which customers were high-value versus low-retention, making it hard to invest wisely.',
+        'Channels were measured in silos. No cross-journey view meant the team could not tell high-value customers from low-retention ones or allocate budget wisely.',
       approach:
-        'I built the framework around the customer journey, from first click to repeat purchase. Using Power BI and advanced DAX, I linked acquisition costs to funnel metrics and retention signals, creating a single view of commercial performance.',
+        'I built the framework around the customer journey from first click to repeat purchase, linking acquisition costs to funnel metrics and retention signals.',
       solution:
-        'A Power BI platform covering multi-channel acquisition funnels, conversion rates by traffic source and segment, basket behaviour and upsell patterns, repeat purchase cohorts and campaign ROI modelling. It refreshes automatically and is fully self-serve for the commercial team.',
+        'A Power BI platform covering multi-channel acquisition funnels, conversion by source and segment, basket behaviour, repeat purchase cohorts and campaign ROI.',
       result:
-        'The team can now see clearly which channels bring quality customers versus just volume. Conversion reviews moved from monthly to weekly. Budget decisions are grounded in behaviour rather than vanity metrics, improving marketing efficiency.',
+        'The team can now distinguish quality customers from volume. Conversion reviews moved from monthly to weekly, with budget decisions grounded in real behaviour.',
     },
     fr: {
       title:    'La Redoute — Intelligence e-commerce',
       subtitle: "Plateforme performance client & acquisition",
       impact:
-        "Nous avons créé un système d'intelligence e-commerce de bout en bout qui relie l'investissement acquisition à la valeur vie transformant des données fragmentées en décisions claires.",
+        "J'ai construit une plateforme d'intelligence e-commerce reliant l'investissement acquisition a la valeur vie client, donnant a l'equipe une lecture claire des canaux qui fonctionnent.",
       context:
-        "La Redoute avait besoin de plus que des rapports de trafic : il fallait savoir quels canaux d'acquisition créaient des clients fidèles et lesquels brûlaient du budget. Les données existaient, mais sans vue unifiée reliant acquisition, conversion et rétention.",
+        "La Redoute avait besoin de savoir quels canaux creaient des clients fideles. Les donnees existaient mais rien ne reliait acquisition, conversion et retention.",
       problem:
-        "Les canaux étaient mesurés en silos — search payant, social, email et organique reportaient séparément sans vue cross-parcours. L'analyse de conversion était rétroactive et superficielle. L'équipe ne pouvait pas distinguer les clients à forte valeur des profils faible rétention, rendant difficile l'allocation optimale du budget.",
+        "Les canaux etaient mesures en silos. Sans vue cross-parcours, impossible de distinguer les clients a forte valeur des profils faible retention.",
       approach:
-        "J'ai construit le cadre autour du parcours client, du premier clic à l'achat répété. Grâce à Power BI et aux mesures DAX avancées, j'ai relié les coûts d'acquisition aux métriques de tunnel et aux signaux de rétention, créant une vue unique de la performance.",
+        "J'ai construit le cadre autour du parcours client, du premier clic a l'achat repete, en reliant couts d'acquisition aux metriques de tunnel et signaux de retention.",
       solution:
-        "Une plateforme Power BI couvrant les entonnoirs d'acquisition multi-canal, les taux de conversion par source et segment, le comportement panier et les patterns d'upsell, les cohortes d'achats répétés et la modélisation ROI des campagnes. Actualisation automatique et reporting self-serve.",
+        "Une plateforme Power BI couvrant entonnoirs d'acquisition multi-canal, conversion par source et segment, comportement panier, cohortes d'achats repetes et ROI campagnes.",
       result:
-        "L'équipe voit désormais clairement quels canaux apportent des clients de qualité versus du volume. Les revues de conversion passent du mensuel à l'hebdomadaire. Les décisions budgétaires s'appuient sur le comportement plutôt que sur des métriques de vanité, améliorant l'efficacité marketing.",
+        "L'equipe distingue desormais clients de qualite et simple volume. Les revues de conversion passent du mensuel a l'hebdomadaire, avec des decisions budgetaires basees sur le comportement.",
     },
     demo: {
       video: null,
       screenshots: [],
       highlights: [
         {
-          en: 'Multi-channel acquisition funnel with cross-source customer journey mapping',
-          fr: "Entonnoir d'acquisition multi-canal avec cartographie du parcours client cross-source",
+          en: 'Multi-channel acquisition funnel with cross-source customer journey mapping.',
+
+          fr: "Entonnoir d'acquisition multi-canal avec cartographie du parcours client cross-source.",
+
         },
         {
-          en: 'Conversion rate analysis segmented by traffic source, device and customer profile',
-          fr: 'Analyse du taux de conversion par source de trafic, appareil et profil client',
+          en: 'Conversion rate analysis segmented by traffic source, device and customer profile.',
+
+          fr: 'Analyse du taux de conversion par source de trafic, appareil et profil client.',
+
         },
         {
-          en: 'Retention cohort analysis connecting acquisition cost to lifetime value',
-          fr: "Analyse de cohortes de rétention reliant coût d'acquisition à la valeur vie client",
+          en: 'Retention cohort analysis connecting acquisition cost to lifetime value.',
+
+          fr: "Analyse de cohortes de rétention reliant coût d'acquisition à la valeur vie client.",
+
         },
         {
-          en: 'Campaign ROI modelling with automated self-serve reporting for commercial teams',
-          fr: 'Modélisation du ROI des campagnes avec reporting self-serve automatisé pour les équipes commerciales',
+          en: 'Campaign ROI modelling with automated self-serve reporting for commercial teams.',
+
+          fr: 'Modélisation du ROI des campagnes avec reporting self-serve automatisé pour les équipes commerciales.',
+
         },
       ],
     },
@@ -303,53 +336,61 @@ demo: {
       title:    'Ubisoft Challenge 2023',
       subtitle: 'Gaming Trends & Player Behaviour Analysis',
       impact:
-        'My team and I got third place in a hackathon challenge by building a trend model that links what gamers say to how they act to turn noise into signals that matter to product teams.',
+        'My team and I placed 3rd out of 17 in the Ubisoft Challenge by building a player intelligence model that turned unstructured gamer language into four strategic trend vectors.',
       context:
-        'The Ubisoft Challenge asked student teams to go beyond summaries and deliver strategic intelligence on gaming trends and player behaviour. We needed to understand what players were actually saying, feeling and doing across multiple platforms.',
+        'The challenge asked teams to deliver real strategic intelligence on gaming trends. We needed to understand what players were actually saying across reviews, forums and social platforms.',
       problem:
-        'Player behaviour is scattered across reviews, forums, social feeds and streams. Analysing each in isolation misses the bigger picture. We had to integrate these signals to see where expectations were shifting and why.',
+        'Player behaviour is scattered across reviews, forums and social feeds. Analysing each source in isolation misses the patterns that matter.',
       approach:
-        'I led the analytics workstream: collecting data from multiple sources, applying NLP to extract sentiment and themes, and building a trend framework linking language patterns to behavioural indicators. We focused on four strategic vectors relevant to Ubisoft\'s portfolio.',
+        'I led the analytics workstream: NLP-based sentiment and topic extraction, then a trend framework linking language patterns to behavioural indicators across four strategic vectors.',
       solution:
-        'A player intelligence system combining NLP sentiment and topic analysis across reviews, forums and social content, cross-referenced with engagement and retention data. We synthesised four trend vectors with direct strategic implications for Ubisoft\'s product categories.',
+        'A player intelligence system combining NLP analysis across reviews, forums and social content, cross-referenced with engagement and retention data.',
       result:
-        'We placed third out of 17 teams. Our method showed how unstructured player language, when properly mined, can surface strategic signals well ahead of conventional research. The four vectors we identified were validated by Ubisoft\'s panel as relevant to active product decisions.',
+        'Third place out of 17 teams. The four trend vectors were validated by the Ubisoft panel as directly relevant to active product decisions.',
     },
     fr: {
       title:    'Ubisoft Challenge 2023',
       subtitle: 'Analyse des tendances gaming & comportement joueurs',
       impact:
-        "Mon équipe et moi avons gagné la troisième place à un hackathon en construisant un modèle de tendances qui relie ce que les joueurs disent à ce qu'ils font transformant le bruit en signaux utiles pour les équipes produit.",
+        "Mon equipe et moi avons obtenu la 3eme place sur 17 au Ubisoft Challenge en construisant un modele d'intelligence joueur transformant le langage non structure en quatre vecteurs strategiques.",
       context:
-        "Le Ubisoft Challenge demandait aux équipes étudiantes d'aller au-delà des résumés et de livrer une intelligence stratégique sur les tendances et le comportement joueurs. Il fallait comprendre ce que les joueurs disaient, ressentaient et faisaient réellement.",
+        "Le challenge demandait une vraie intelligence strategique sur les tendances gaming. Il fallait comprendre ce que les joueurs disaient sur reviews, forums et reseaux sociaux.",
       problem:
-        "Le comportement des joueurs est dispersé entre critiques, forums, réseaux sociaux et streams. Analyser chaque source isolément fait perdre la vue d'ensemble. Il fallait intégrer ces signaux pour voir où les attentes évoluaient et pourquoi.",
+        "Le comportement des joueurs est disperse sur de multiples sources. Analyser chaque canal isolement fait perdre les patterns qui comptent.",
       approach:
-        "J'ai piloté le volet analytique : collecte de données multi-sources, application de NLP pour extraire sentiment et thèmes, et construction d'un cadre de tendances reliant patterns linguistiques à des indicateurs comportementaux. Nous nous sommes concentrés sur quatre vecteurs stratégiques pertinents pour le portefeuille Ubisoft.",
+        "J'ai pilote le volet analytique : extraction NLP de sentiment et de themes, puis construction d'un cadre reliant patterns linguistiques a des indicateurs comportementaux.",
       solution:
-        "Un système d'intelligence joueur combinant analyse NLP du sentiment et des thèmes sur critiques, forums et contenus sociaux, croisée avec des données d'engagement et de rétention. Nous avons synthétisé quatre vecteurs avec des implications directes pour les catégories de produits d'Ubisoft.",
+        "Un systeme d'intelligence joueur combinant analyse NLP sur reviews, forums et contenu social, croise avec des donnees d'engagement et de retention.",
       result:
-        "Nous avons terminé troisièmes sur 17 équipes. La méthode a montré comment le langage joueur non structuré, correctement exploité, peut faire émerger des signaux stratégiques bien avant les recherches classiques. Les quatre vecteurs identifiés ont été validés par le jury comme pertinents pour les décisions produits en cours.",
+        "3eme sur 17 equipes. Les quatre vecteurs de tendances ont ete valides par le jury Ubisoft comme directement pertinents pour les decisions produits en cours.",
     },
     demo: {
       video: null,
       screenshots: [],
       highlights: [
         {
-          en: 'NLP sentiment and topic mining across reviews, forums and social gaming communities',
-          fr: 'Text mining NLP du sentiment et des sujets sur reviews, forums et communautés gaming sociales',
+          en: 'NLP sentiment and topic mining across reviews, forums and social gaming communities.',
+
+          fr: 'Text mining NLP du sentiment et des sujets sur reviews, forums et communautés gaming sociales.',
+
         },
         {
-          en: "Four strategic trend vectors mapped to Ubisoft's product categories",
-          fr: "Quatre vecteurs de tendances stratégiques mappés sur les catégories produits Ubisoft",
+          en: "Four strategic trend vectors mapped to Ubisoft's product categories.",
+
+          fr: "Quatre vecteurs de tendances stratégiques mappés sur les catégories produits Ubisoft.",
+
         },
         {
-          en: 'Cross-referencing language patterns with engagement and retention behavioural data',
-          fr: "Croisement des patterns linguistiques avec les données comportementales d'engagement et de rétention",
+          en: 'Cross-referencing language patterns with engagement and retention behavioural data.',
+
+          fr: "Croisement des patterns linguistiques avec les données comportementales d'engagement et de rétention.",
+
         },
         {
-          en: "Trend modelling framework validated by Ubisoft's strategic panel — ranked 3rd/17",
-          fr: 'Cadre de modélisation de tendance validé par le jury stratégique Ubisoft — 3ème/17',
+          en: "Trend modelling framework validated by Ubisoft's strategic panel — ranked 3rd/17.",
+
+          fr: 'Cadre de modélisation de tendance validé par le jury stratégique Ubisoft — 3ème/17.',
+
         },
       ],
     },
@@ -369,53 +410,61 @@ demo: {
       title:    'Demand Forecasting Model',
       subtitle: 'Customer Demand Intelligence System',
       impact:
-        'I boosted forecast accuracy by 22% reducing stockouts and overstock while giving the supply team confidence that the numbers matched reality.',
+        'I built a demand forecasting model that improved accuracy by 22%, reducing stockouts and overstock across a multi-SKU portfolio.',
       context:
-        'The supply chain team needed a structured way to read demand signals and translate them into accurate inventory calls. Across a multi-SKU portfolio, the gap between forecast and actual behaviour quietly generated waste.',
+        'The supply chain team needed a structured way to read demand signals. Across a multi-SKU portfolio, the gap between forecast and actual behaviour quietly generated waste.',
       problem:
-        'Forecasts relied on gut feeling and spreadsheets. Seasonality, promo response and channel velocity weren\'t systematically captured or modelled. Errors meant empty shelves in peak times and too much inventory when demand slowed.',
+        'Forecasts relied on gut feel and spreadsheets. Seasonality, promo response and channel velocity were not modelled, leading to stockouts at peak and surplus when demand slowed.',
       approach:
-        'I analysed three years of sell-in and sell-out data to map real purchasing behaviour by category, channel and period. I quantified seasonality, promo uplift and channel velocity differences, then folded them into a scenario-ready framework.',
+        'I analysed three years of sell-in and sell-out data, quantified seasonality and promo uplift by category and channel, then built a scenario-ready framework.',
       solution:
-        'A multi-factor demand model combining sell-out velocity, weighted sell-in history, promotional calendar adjustments, seasonality and scenario planning. High-risk SKUs are flagged automatically and end-of-period accuracy reports enable continuous calibration.',
+        'A multi-factor demand model combining sell-out velocity, weighted sell-in history, promotional adjustments and seasonality. High-risk SKUs are flagged automatically.',
       result:
-        'Forecast accuracy improved by 22%. Stockouts fell across key SKUs, overstock shrank and working capital efficiency improved. Planning shifted from reactive to proactive with a clear read on demand.',
+        'Forecast accuracy up 22%. Stockouts fell on key SKUs, overstock shrank and planning shifted from reactive to proactive.',
     },
     fr: {
       title:    'Modèle de prévision de la demande',
       subtitle: "Système d'intelligence de la demande client",
       impact:
-        "Amélioration de la précision des prévisions de 22 % — réduisant les ruptures et les surstocks tout en donnant confiance à l'équipe supply dans la fiabilité des chiffres.",
+        "J'ai construit un modele de prevision de la demande ameliorant la precision de 22%, reduisant les ruptures et les surstocks sur un portefeuille multi-SKU.",
       context:
-        "L'équipe supply avait besoin d'une approche structurée pour lire les signaux de demande et les traduire en décisions de stock. Sur un portefeuille multi-SKU, l'écart entre prévision et réalité générait discrètement des gaspillages.",
+        "L'equipe supply avait besoin d'une approche structuree pour lire les signaux de demande. Sur un portefeuille multi-SKU, l'ecart entre prevision et realite generait du gaspillage.",
       problem:
-        "Les prévisions reposaient sur l'intuition et des tableurs. Saisonnalité, réactions promotionnelles et vélocité par canal n'étaient pas capturées ni modélisées. Les erreurs entraînaient des ruptures en période de forte demande et des surstocks lorsque le marché ralentissait.",
+        "Les previsions reposaient sur l'intuition et des tableurs. Saisonnalite, reponse promotionnelle et velocite par canal n'etaient pas modelisees.",
       approach:
-        "J'ai analysé trois ans de données sell-in et sell-out pour cartographier le comportement d'achat réel par catégorie, canal et période. J'ai quantifié la saisonnalité, l'uplift promotionnel et les différences de vélocité par canal, puis intégré le tout dans un cadre de scénarios.",
+        "J'ai analyse trois ans de donnees sell-in et sell-out, quantifie la saisonnalite et l'uplift promo par categorie et canal, puis construit un cadre de scenarios.",
       solution:
-        "Un modèle de demande multi-facteurs combinant vélocité de sell-out, historique sell-in pondéré, ajustements du calendrier promotionnel, indices de saisonnalité et planification par scénarios. Les SKUs à risque sont signalés automatiquement et les rapports de précision de fin de période permettent un calibrage continu.",
+        "Un modele de demande multi-facteurs combinant velocite sell-out, historique sell-in pondere, ajustements promotionnels et saisonnalite. SKUs a risque signalee automatiquement.",
       result:
-        "La précision des prévisions s'est améliorée de 22 %. Les ruptures ont diminué sur les SKUs clés, les surstocks ont réduit et l'efficacité du BFR s'est améliorée. La planification est devenue proactive grâce à une lecture claire de la demande.",
+        "Precision des previsions en hausse de 22%. Les ruptures ont baisse sur les SKUs cles, les surstocks ont reduit et la planification est devenue proactive.",
     },
     demo: {
       video: null,
       screenshots: [],
       highlights: [
         {
-          en: 'Multi-factor demand model combining sell-out velocity and weighted sell-in history',
-          fr: 'Modèle de demande multi-facteurs combinant vélocité sell-out et historique sell-in pondéré',
+          en: 'Multi-factor demand model combining sell-out velocity and weighted sell-in history.',
+
+          fr: 'Modèle de demande multi-facteurs combinant vélocité sell-out et historique sell-in pondéré.',
+
         },
         {
-          en: 'Seasonality indices and promotional uplift coefficients by category and channel',
-          fr: "Indices de saisonnalité et coefficients d'uplift promotionnel par catégorie et canal",
+          en: 'Seasonality indices and promotional uplift coefficients by category and channel.',
+
+          fr: "Indices de saisonnalité et coefficients d'uplift promotionnel par catégorie et canal.",
+
         },
         {
-          en: 'Automated high-risk SKU detection with period-end accuracy reporting',
-          fr: 'Détection automatisée des SKUs à risque avec reporting de précision en fin de période',
+          en: 'Automated high-risk SKU detection with period-end accuracy reporting.',
+
+          fr: 'Détection automatisée des SKUs à risque avec reporting de précision en fin de période.',
+
         },
         {
-          en: 'Scenario-planning capabilities for peak demand and promotional periods',
-          fr: 'Capacités de planification par scénarios pour les périodes de forte demande et promotions',
+          en: 'Scenario-planning capabilities for peak demand and promotional periods.',
+
+          fr: 'Capacités de planification par scénarios pour les périodes de forte demande et promotions.',
+
         },
       ],
     },
@@ -435,53 +484,61 @@ demo: {
       title:    'Customer Switching Behaviour Intelligence',
       subtitle: 'Behavioural Drivers & Loyalty Defection Analysis',
       impact:
-        'I used Kotler\'s 6A framework and PCA to decode why customers really switch to uncover four archetypes that would help brands in FMCG retain their audience.',
+        "I applied Kotler's 6A framework and PCA to decode four distinct customer switching archetypes, giving brands a predictive lens on churn before it happens.",
       context:
-        'Understanding why customers change brands is commercially valuable but methodologically tough. This project sought to move beyond what people say to uncover the behavioural and attitudinal patterns that actually predict switching.',
+        'Understanding why customers switch brands is commercially valuable but hard to study. This project aimed to move beyond stated reasons to find actual behavioural patterns.',
       problem:
-        'Traditional loyalty analysis only highlights symptoms — a bad last interaction or momentary price sensitivity — without capturing deeper drivers. Brands end up reacting to churn instead of anticipating it. The question: what signals predict switching before it happens?',
+        'Traditional loyalty analysis only surfaces symptoms like a bad last interaction or price sensitivity, without capturing the deeper drivers that predict switching.',
       approach:
-        'I designed a primary study in Qualtrics around the Kotler 6A framework (Aware, Appeal, Ask, Act, Advocate, Aware again) to capture attitudes at each stage. Then I applied PCA in SPSS to reduce dimensionality and find the latent factors driving switching.',
+        'I designed a Qualtrics study around the 6A framework to capture attitudes at each stage, then applied PCA in SPSS to surface the latent factors driving switching.',
       solution:
-        'A behavioural model combining survey data, PCA-derived factors and the 6A framework. It yielded four distinct switching archetypes with clear behavioural profiles, mapped to intervention points in the customer journey.',
+        'A behavioural model combining survey data, PCA-derived factors and the 6A framework, producing four switching archetypes mapped to intervention points in the customer journey.',
       result:
-        'Four archetypes emerged, each representing a different path to switching. The model showed that most decisions are predictable well before defection, driven by attitudinal erosion earlier in the 6A cycle. It informed retention strategies with targeting logic by archetype.',
+        'Four archetypes emerged, each with a distinct path to switching. Most decisions are predictable before defection through attitudinal erosion earlier in the 6A cycle.',
     },
     fr: {
       title:    'Intelligence du comportement de switching client',
       subtitle: 'Drivers comportementaux & analyse de défection de fidélité',
       impact:
-        "J'ai utilisé le framework 6A de Kotler et la PCA pour décoder pourquoi les clients changent vraiment dévoilant quatre archétypes qui pourraient aider les marques dans la FMCG à retenir leur audience.",
+        "J'ai applique le framework 6A de Kotler et la PCA pour decoder quatre archetypes de switching client, donnant aux marques une lecture predictive du churn avant qu'il arrive.",
       context:
-        "Comprendre pourquoi les clients changent de marque est précieux commercialement mais difficile méthodologiquement. Ce projet visait à dépasser les déclarations pour révéler les patterns comportementaux et attitudinaux qui prédisent le switching.",
+        "Comprendre pourquoi les clients changent de marque est precieux mais methodologiquement difficile. Ce projet visait a aller au-dela des declarations pour trouver les vrais patterns comportementaux.",
       problem:
-        "L'analyse classique de la fidélité ne fait remonter que des symptômes — une mauvaise dernière interaction ou une sensibilité prix ponctuelle — sans capter les drivers profonds. Les marques réagissent au churn au lieu de l'anticiper. La question : quels signaux prédisent le switching avant qu'il n'arrive ?",
+        "L'analyse classique de la fidelite ne remonte que des symptomes comme une mauvaise interaction ou la sensibilite prix, sans capter les drivers profonds qui predisent le switching.",
       approach:
-        "J'ai conçu une étude primaire sur Qualtrics autour du framework 6A (Aware, Appeal, Ask, Act, Advocate, Aware again) pour capter l'attitude à chaque étape. Ensuite, j'ai appliqué la PCA dans SPSS pour réduire la dimension et trouver les facteurs latents qui pilotent le switching.",
+        "J'ai concu une etude Qualtrics autour du framework 6A pour capter les attitudes a chaque etape, puis applique la PCA dans SPSS pour identifier les facteurs latents du switching.",
       solution:
-        "Un modèle comportemental combinant données d'enquête, facteurs dérivés de la PCA et framework 6A. Il a produit quatre archétypes distincts avec des profils comportementaux clairs, mappés sur des points d'intervention du parcours client.",
+        "Un modele comportemental combinant donnees d'enquete, facteurs PCA et framework 6A, produisant quatre archetypes de switching mappes sur des points d'intervention du parcours client.",
       result:
-        "Quatre archétypes ont émergé, chacun représentant un chemin différent vers le switching. Le modèle a montré que la plupart des décisions sont prévisibles bien avant la défection, pilotées par une érosion attitudinale en amont dans le cycle 6A. Il a éclairé des stratégies de rétention avec un ciblage par archétype.",
+        "Quatre archetypes, chacun avec un chemin distinct vers le switching. La plupart des decisions sont previsibles avant la defection via une erosion attitudinale en amont du cycle 6A.",
     },
     demo: {
       video: null,
       screenshots: [],
       highlights: [
         {
-          en: 'Kotler 6A framework mapped to a structured Qualtrics survey instrument across brand stages',
-          fr: 'Framework 6A de Kotler appliqué à un questionnaire Qualtrics structuré sur les étapes de la marque',
+          en: 'Kotler 6A framework mapped to a structured Qualtrics survey instrument across brand stages.',
+
+          fr: 'Framework 6A de Kotler appliqué à un questionnaire Qualtrics structuré sur les étapes de la marque.',
+
         },
         {
-          en: 'PCA in SPSS reducing the attitudinal dataset to latent factor structure driving switching',
-          fr: 'PCA dans SPSS réduisant le jeu de données attitudinal à la structure factorielle latente pilotant le switching',
+          en: 'PCA in SPSS reducing the attitudinal dataset to latent factor structure driving switching.',
+
+          fr: 'PCA dans SPSS réduisant le jeu de données attitudinal à la structure factorielle latente pilotant le switching.',
+
         },
         {
-          en: 'Four behavioural switching archetypes with statistically grounded profiles',
-          fr: 'Quatre archétypes de switching comportemental avec profils statistiquement fondés',
+          en: 'Four behavioural switching archetypes with statistically grounded profiles.',
+
+          fr: 'Quatre archétypes de switching comportemental avec profils statistiquement fondés.',
+
         },
         {
-          en: 'Intervention mapping by archetype — identifying predictable switching conditions before defection',
-          fr: 'Cartographie des interventions par archétype — identifier les conditions de switching avant la défection',
+          en: 'Intervention mapping by archetype — identifying predictable switching conditions before defection.',
+
+          fr: 'Cartographie des interventions par archétype — identifier les conditions de switching avant la défection.',
+
         },
       ],
     },
@@ -535,12 +592,16 @@ demo: {
       tableau: {
         file:  '/demos/cultural-sentiment-intelligence/Cultural_Sentiment_Intelligence.twbx',
         title: {
-          en: 'Seasonal Signals — Tableau Dashboard',
-          fr: 'Seasonal Signals — Dashboard Tableau',
+          en: 'Seasonal Signals — Tableau Dashboard.',
+
+          fr: 'Seasonal Signals — Dashboard Tableau.',
+
         },
         caption: {
-          en: 'Cultural sentiment dashboard · Open with Tableau Desktop or Tableau Public',
-          fr: 'Dashboard de sentiment culturel · Ouvrir avec Tableau Desktop ou Tableau Public',
+          en: 'Cultural sentiment dashboard · Open with Tableau Desktop or Tableau Public.',
+
+          fr: 'Dashboard de sentiment culturel · Ouvrir avec Tableau Desktop ou Tableau Public.',
+
         },
         sheets: ['KPI Overview', 'Sentiment Distribution', 'Sentiment Over Time', 'PCA Clusters', 'Cluster Heatmap', 'Platform Sentiment', 'Hype vs Concern'],
       },
