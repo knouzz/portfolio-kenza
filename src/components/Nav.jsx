@@ -127,9 +127,35 @@ export default function Nav() {
               {link.label.toUpperCase()}
             </button>
           ))}
+          {/* CV + LinkedIn row */}
+          <div className="flex items-center gap-3 mt-1 mb-1">
+            <a
+              href={lang === 'en' ? '/cv-kenza-en-nassef-en.pdf' : '/cv-kenza-en-nassef-fr.pdf'}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 font-mono text-xs tracking-widest py-2.5 flex items-center justify-center rounded-lg border border-border text-silver hover:border-amber/50 hover:text-amber transition-all duration-200"
+            >
+              {lang === 'en' ? 'CV' : 'CV'}
+            </a>
+            <a
+              href="https://linkedin.com/in/kenza-en-nassef"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 font-mono text-xs tracking-widest py-2.5 flex items-center justify-center gap-2 rounded-lg border border-border text-silver hover:border-amber/50 hover:text-amber transition-all duration-200"
+            >
+              <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
+                <rect x="1.5" y="1.5" width="13" height="13" rx="2" stroke="currentColor" strokeWidth="1.2"/>
+                <path d="M5 6.5V11.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
+                <path d="M8 11.5V8.5c0-1.1.9-2 2-2s2 .9 2 2v3" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
+                <circle cx="5" cy="4.5" r="0.75" fill="currentColor"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+
           <a
             href="mailto:kenzaennassef@outlook.fr"
-            className="btn-primary text-xs mt-3 justify-center"
+            className="btn-primary text-xs mt-1 justify-center"
           >
             {t.cta}
           </a>
