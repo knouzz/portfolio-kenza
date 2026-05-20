@@ -182,7 +182,7 @@ cta1:
   "Explorer les projets",
       cta2: 'Me contacter',
       panel: {
-        system:  'SYSTÈME INTELLIGENCE',
+        system:  'UN PETIT RECAP',
         title:   'Analytique Commerciale',
         status:  'LIVE',
         chart:   'TRAJECTOIRE PERFORMANCE',
