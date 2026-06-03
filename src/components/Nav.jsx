@@ -153,12 +153,23 @@ export default function Nav() {
             </a>
           </div>
 
-          <a
-            href="mailto:kenzaennassef@outlook.fr"
-            className="btn-primary text-xs mt-1 justify-center"
-          >
-            {t.cta}
-          </a>
+          <div className="flex gap-2 mt-1">
+            <a
+              href="mailto:kenzaennassef@outlook.fr"
+              className="btn-primary text-xs flex-1 justify-center"
+            >
+              {t.cta}
+            </a>
+            <a
+              href="tel:+33659301931"
+              title="+33 6 59 30 19 31"
+              className="w-10 flex items-center justify-center rounded-lg border border-border text-silver hover:border-amber/50 hover:text-amber transition-all duration-200"
+            >
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                <path d="M2 3.5C2 2.67 2.67 2 3.5 2h1.586a1 1 0 0 1 .894.553l1 2A1 1 0 0 1 6.83 5.8L5.91 6.72a8.01 8.01 0 0 0 3.37 3.37l.92-.92a1 1 0 0 1 1.246-.15l2 1a1 1 0 0 1 .554.895V12.5A1.5 1.5 0 0 1 12.5 14C6.701 14 2 9.299 2 3.5Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </header>
