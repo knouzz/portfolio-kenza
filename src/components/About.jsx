@@ -143,46 +143,49 @@ export default function About() {
           {/* ── RIGHT: Intelligence Panel ────────────────────── */}
           <div className="w-full lg:w-[42%] flex flex-col gap-4 opacity-0" style={{ animation: 'revealUp 0.8s cubic-bezier(0.16,1,0.3,1) forwards 0.4s' }}>
 
-            {/* Photo */}
-            <div className="relative rounded-xl overflow-hidden border border-border" style={{ background: 'rgba(8,17,18,0.60)' }}>
-              <img
-                src="/kenza.jpg"
-                alt="Kenza En-Nassef"
-                className="w-full object-cover object-top"
-                style={{ maxHeight: '320px' }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-bg/40 via-transparent to-transparent pointer-events-none" />
-            </div>
-
-            {/* KPI panel */}
-            <div className="relative glass-panel rounded-xl p-4 glow-amber-sm">
-              <div className="absolute top-0 left-0 w-10 h-10 border-t border-l border-amber/20 rounded-tl-xl pointer-events-none" />
-              <div className="absolute bottom-0 right-0 w-10 h-10 border-b border-r border-amber/10 rounded-br-xl pointer-events-none" />
-
-              {/* Panel header */}
-              <div className="flex items-center justify-between mb-3 pb-3 border-b border-border">
-                <p className="font-mono text-[10px] tracking-[0.2em] text-text-dim">{hero.panel.system}</p>
-                <div className="flex items-center gap-1.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-status-green animate-pulse" />
-                  <span className="font-mono text-[10px] text-status-green tracking-widest">{hero.panel.status}</span>
+            {/* Photo + KPI side by side */}
+            <div className="flex gap-4">
+              {/* Portrait */}
+              <div className="relative rounded-xl overflow-hidden border border-border/60 shrink-0" style={{ width: '42%' }}>
+                <div className="aspect-[3/4]">
+                  <img
+                    src="/kenza.jpg"
+                    alt="Kenza En-Nassef"
+                    className="w-full h-full object-cover object-center"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-bg/60 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute bottom-3 left-3 right-3">
+                  <p className="font-mono text-[9px] tracking-widest text-kpi/80 leading-relaxed">KENZA EN-NASSEF</p>
                 </div>
               </div>
 
-              {/* Metrics grid */}
-              <div className="grid grid-cols-2 gap-2">
-                {hero.panel.metrics.map((m, i) => (
-                  <MetricTile
-                    key={m.label}
-                    label={m.label}
-                    value={m.value}
-                    text={m.text}
-                    suffix={m.suffix}
-                    sublabel={m.sublabel}
-                    accent="kpi"
-                    started={started}
-                    duration={1400 + i * 200}
-                  />
-                ))}
+              {/* KPI panel */}
+              <div className="flex-1 relative glass-panel rounded-xl p-4 glow-amber-sm">
+                <div className="absolute top-0 left-0 w-8 h-8 border-t border-l border-amber/20 rounded-tl-xl pointer-events-none" />
+                <div className="absolute bottom-0 right-0 w-8 h-8 border-b border-r border-amber/10 rounded-br-xl pointer-events-none" />
+                <div className="flex items-center justify-between mb-3 pb-3 border-b border-border">
+                  <p className="font-mono text-[9px] tracking-[0.15em] text-text-dim">{hero.panel.system}</p>
+                  <div className="flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-status-green animate-pulse" />
+                    <span className="font-mono text-[9px] text-status-green tracking-widest">{hero.panel.status}</span>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  {hero.panel.metrics.map((m, i) => (
+                    <MetricTile
+                      key={m.label}
+                      label={m.label}
+                      value={m.value}
+                      text={m.text}
+                      suffix={m.suffix}
+                      sublabel={m.sublabel}
+                      accent="kpi"
+                      started={started}
+                      duration={1400 + i * 200}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
 
