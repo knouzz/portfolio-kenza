@@ -143,6 +143,17 @@ export default function About() {
           {/* ── RIGHT: Intelligence Panel ────────────────────── */}
           <div className="w-full lg:w-[42%] flex flex-col gap-4 opacity-0" style={{ animation: 'revealUp 0.8s cubic-bezier(0.16,1,0.3,1) forwards 0.4s' }}>
 
+            {/* Photo */}
+            <div className="relative rounded-xl overflow-hidden border border-border" style={{ background: 'rgba(8,17,18,0.60)' }}>
+              <img
+                src="/kenza.jpg"
+                alt="Kenza En-Nassef"
+                className="w-full object-cover object-top"
+                style={{ maxHeight: '320px' }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-bg/40 via-transparent to-transparent pointer-events-none" />
+            </div>
+
             {/* KPI panel */}
             <div className="relative glass-panel rounded-xl p-4 glow-amber-sm">
               <div className="absolute top-0 left-0 w-10 h-10 border-t border-l border-amber/20 rounded-tl-xl pointer-events-none" />
