@@ -62,6 +62,16 @@ export const content = {
         'Performance Analytics',
         'Process Improvement & Automation',
       ],
+      interests: [
+        'Business Analysis',
+        'Data Analytics & Visualization',
+        'Process Improvement',
+        'Digital Transformation',
+        'Consumer & Market Intelligence',
+        'Dashboarding & Reporting',
+        'AI & Automation',
+        'Product & Performance Analytics',
+      ],
     },
 
     projects: {
