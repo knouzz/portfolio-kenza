@@ -157,7 +157,7 @@ export default function About() {
             {/* Photo + KPI side by side */}
             <div className="flex flex-col sm:flex-row gap-4">
               {/* Portrait — full width on mobile, 42% on desktop */}
-              <div className="relative rounded-xl overflow-hidden border border-border/60 w-full sm:w-[42%] sm:shrink-0">
+              <div className="relative rounded-xl overflow-hidden border border-border/60 w-[85%] mx-auto sm:mx-0 sm:w-[42%] sm:shrink-0">
                 <div className="aspect-[4/5] sm:aspect-[3/4]">
                   <img
                     src="/kenza.jpg"
