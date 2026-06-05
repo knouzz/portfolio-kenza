@@ -155,24 +155,20 @@ export default function About() {
           <div className="w-full lg:w-[42%] flex flex-col gap-4 opacity-0" style={{ animation: 'revealUp 0.8s cubic-bezier(0.16,1,0.3,1) forwards 0.4s' }}>
 
             {/* Photo + KPI side by side */}
-            <div className="flex gap-4">
-              {/* Portrait */}
-              <div className="relative rounded-xl overflow-hidden border border-border/60 shrink-0" style={{ width: '42%' }}>
-                <div className="aspect-[3/4]">
+            <div className="flex flex-col sm:flex-row gap-4">
+              {/* Portrait — full width on mobile, 42% on desktop */}
+              <div className="relative rounded-xl overflow-hidden border border-border/60 w-full sm:w-[42%] sm:shrink-0">
+                <div className="aspect-[4/3] sm:aspect-[3/4]">
                   <img
                     src="/kenza.jpg"
                     alt="Kenza En-Nassef"
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-cover object-top"
                   />
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-bg/60 via-transparent to-transparent pointer-events-none" />
-                <div className="absolute bottom-3 left-3 right-3">
-                  <p className="font-mono text-[9px] tracking-widest text-kpi/80 leading-relaxed">KENZA EN-NASSEF</p>
                 </div>
               </div>
 
               {/* KPI panel */}
-              <div className="flex-1 relative glass-panel rounded-xl p-4 glow-amber-sm">
+              <div className="w-full sm:flex-1 relative glass-panel rounded-xl p-4 glow-amber-sm">
                 <div className="absolute top-0 left-0 w-8 h-8 border-t border-l border-amber/20 rounded-tl-xl pointer-events-none" />
                 <div className="absolute bottom-0 right-0 w-8 h-8 border-b border-r border-amber/10 rounded-br-xl pointer-events-none" />
                 <div className="flex items-center justify-between mb-3 pb-3 border-b border-border">
