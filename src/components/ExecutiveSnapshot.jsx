@@ -45,30 +45,54 @@ export default function ExecutiveSnapshot() {
             </h2>
 
             <div className="space-y-5">
-              {t.paragraphs.map((para, i) => (
+              {/* Intro paragraph */}
+              <p
+                className={`text-text-bright font-medium text-lg leading-relaxed opacity-0 ${inView ? 'reveal-up' : ''}`}
+                style={{ animationDelay: '200ms' }}
+              >
+                {t.paragraphs[0]}
+              </p>
+
+              {/* Why questions */}
+              {t.questions && (
+                <div
+                  className={`pl-4 border-l-2 border-amber/30 space-y-2 opacity-0 ${inView ? 'reveal-up' : ''}`}
+                  style={{ animationDelay: '300ms' }}
+                >
+                  {t.questions.map((q, i) => (
+                    <p key={i} className="font-mono text-sm text-text-dim">{q}</p>
+                  ))}
+                </div>
+              )}
+
+              {/* Remaining paragraphs */}
+              {t.paragraphs.slice(1).map((para, i) => (
                 <p
                   key={i}
                   className={`text-text leading-relaxed opacity-0 ${inView ? 'reveal-up' : ''}`}
-                  style={{ animationDelay: `${200 + i * 100}ms` }}
+                  style={{ animationDelay: `${400 + i * 100}ms` }}
                 >
-                  {i === 0 ? (
-                    <span className="text-text-bright font-medium text-lg">{para}</span>
-                  ) : (
-                    para
-                  )}
+                  {para}
                 </p>
               ))}
             </div>
 
-            {/* Discipline tags */}
-            <div
-              className={`flex flex-wrap gap-2 mt-8 opacity-0 ${inView ? 'reveal-up' : ''}`}
-              style={{ animationDelay: '500ms' }}
-            >
-              {t.disciplines.map(d => (
-                <span key={d} className="tag">{d}</span>
-              ))}
-            </div>
+            {/* What I enjoy working on */}
+            {t.interests && (
+              <div
+                className={`mt-10 opacity-0 ${inView ? 'reveal-up' : ''}`}
+                style={{ animationDelay: '600ms' }}
+              >
+                <p className="font-mono text-[10px] tracking-[0.2em] text-amber/60 mb-4 uppercase">
+                  {lang === 'en' ? 'What I enjoy working on' : 'Ce que j\'aime faire'}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {t.interests.map(item => (
+                    <span key={item} className="tag">{item}</span>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Right: stats + profile card */}
@@ -109,16 +133,16 @@ export default function ExecutiveSnapshot() {
               <div className="space-y-4">
                 {[
                   {
-                    phase: lang === 'en' ? 'Communications & PR'          : 'Communication & RP',
-                    desc:  lang === 'en' ? 'Brand narrative, media, storytelling' : 'Narration de marque, médias, storytelling',
+                    phase: lang === 'en' ? 'Brand & Communications'       : 'Marque & Communication',
+                    desc:  lang === 'en' ? 'Understanding audiences, narratives and what resonates' : 'Comprendre les audiences, les récits et ce qui résonne',
                   },
                   {
-                    phase: lang === 'en' ? 'Marketing & Brand Strategy'   : 'Marketing & Stratégie de Marque',
-                    desc:  lang === 'en' ? 'Consumer insight, category management'   : "Insight consommateur, category management",
+                    phase: lang === 'en' ? 'Consumer Insights & Strategy' : 'Insights Consommateurs & Stratégie',
+                    desc:  lang === 'en' ? 'Connecting behaviour data to brand and commercial decisions' : 'Relier les données comportementales aux décisions commerciales',
                   },
                   {
-                    phase: lang === 'en' ? 'Commercial Analysis & BI'     : 'Analyse Commerciale & BI',
-                    desc:  lang === 'en' ? 'KPIs, dashboards, automation, forecasting' : 'KPIs, dashboards, automatisation, prévisions',
+                    phase: lang === 'en' ? 'Business Analysis & Data'     : 'Analyse Business & Data',
+                    desc:  lang === 'en' ? 'Analysis, dashboards, process design, automation, AI' : 'Analyse, dashboards, conception de processus, automatisation, IA',
                     current: true,
                   },
                 ].map((item, i) => (

@@ -200,9 +200,25 @@ cta1:
       label:   'Profil Exécutif',
       heading: "Un autre type d'analyste.",
       paragraphs: [
-        "Ma curiosité a commencé avec les gens. Pourquoi ils se comportent comme ils le font, d'où viennent les frictions, ce qui pilote vraiment les décisions. Cela m'a amenée vers la stratégie de marque et les insights consommateurs, puis vers l'analytique et la business intelligence.",
-        "Au fil du temps, j'ai réalisé que ce que j'apprécie le plus, ce n'est pas une discipline en particulier. C'est le moment où un problème flou commence à avoir du sens. Comprendre les besoins, identifier les patterns, relier les objectifs business aux comportements réels, aider les équipes à passer des questions aux solutions.",
-        "Aujourd'hui je travaille à l'intersection de l'analyse business, de la data analytics, de la compréhension client et de l'amélioration des processus. Que le défi soit un système de reporting à construire, un comportement à expliquer ou un workflow à repenser, je pars toujours du même endroit : qu'est-ce qui se passe vraiment ici, et pourquoi ?",
+        "Ma carrière a commencé dans le marketing et la communication. Je pensais passer mon temps à raconter des histoires. En réalité, je me suis de plus en plus intéressée aux questions qui se cachaient derrière.",
+        "Ces questions m'ont progressivement amenée vers l'analyse business, la data analytics et la transformation digitale.",
+        "Aujourd'hui, j'aime travailler là où les besoins métier, la data et la prise de décision se rencontrent. Je transforme des problèmes complexes en solutions claires, en collaboration avec clients et développeurs.",
+      ],
+      questions: [
+        "Pourquoi la performance évolue.",
+        "Pourquoi les clients se comportent différemment de ce qu'on attendait.",
+        "Pourquoi certaines initiatives créent de l'élan et d'autres des frictions.",
+        "Pourquoi les équipes passent parfois des mois à résoudre le mauvais problème.",
+      ],
+      interests: [
+        'Business Analysis',
+        'Data Analytics & Visualisation',
+        'Amélioration des Processus',
+        'Transformation Digitale',
+        'Intelligence Consommateur & Marché',
+        'Dashboarding & Reporting',
+        'IA & Automatisation',
+        'Product & Performance Analytics',
       ],
       stats: [
         { value: '4+',   label: "Années d'expérience" },
