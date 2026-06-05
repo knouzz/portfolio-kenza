@@ -15,10 +15,16 @@ export const content = {
       sysLabel:    'Open to roles in business analysis, data analytics, consulting and digital transformation.',
       name:        'Kenza\nEn-nassef',
       role:        'BUSINESS ANALYST · DATA & CONSUMER ANALYTICS · DIGITAL TRANSFORMATION',
-      tagline:     "The interesting part isn't the solution itself.",
-      taglineBold: 'They just want things to make sense, products that feel relevant, communication that feels human, and experiences that don’t create friction.',
+      tagline:     "My career started in marketing and communications.",
+      taglineBold: "I thought I would spend my time telling stories. Instead, I became increasingly interested in the questions hiding behind them.",
+      questions: [
+        "Why performance changes.",
+        "Why customers behave differently than expected.",
+        "Why some initiatives create momentum while others create friction.",
+        "Why teams sometimes spend months solving the wrong problem.",
+      ],
       sub:
-      'My work sits somewhere around that idea, understanding behaviour well enough to help businesses feel a little less disconnected from the people they’re built for.',
+      "Over time, those questions led me toward business analysis, data analytics and digital transformation. Today, I enjoy working where business needs, data and decision-making meet. I turn complex problems into clear solutions, working with clients and developers.",
       cta1: 'Explore Projects',
       cta2: 'Get in Touch',
       panel: {
@@ -170,13 +176,20 @@ export const content = {
       name:        'Kenza\nEn-nassef',
       role:        'BUSINESS ANALYST · DATA & CONSUMER ANALYTICS · TRANSFORMATION DIGITALE.',
       tagline:
-  "Ce qui est intéressant, ce n'est pas la solution elle-même.",
+  "Ma carrière a commencé dans le marketing et la communication.",
 
 taglineBold:
-  "C'est comprendre le problème suffisamment bien pour que la bonne réponse devienne évidente.",
+  "Je pensais passer mon temps à raconter des histoires. En réalité, je me suis de plus en plus intéressée aux questions qui se cachaient derrière.",
+
+questions: [
+  "Pourquoi la performance évolue.",
+  "Pourquoi les clients se comportent différemment de ce qu'on attendait.",
+  "Pourquoi certaines initiatives créent de l'élan et d'autres des frictions.",
+  "Pourquoi les équipes passent parfois des mois à résoudre le mauvais problème.",
+],
 
 sub:
-  "Je travaille quelque part entre l'analyse business, la compréhension client et la data, pour aider à transformer des questions floues en choses concrètes sur lesquelles on peut agir.",
+  "Ces questions m'ont progressivement amenée vers l'analyse business, la data analytics et la transformation digitale. Aujourd'hui, j'aime travailler là où les besoins métier, la data et la prise de décision se rencontrent. Je transforme des problèmes complexes en solutions claires, en collaboration avec clients et développeurs.",
 
 cta1:
   "Explorer les projets",

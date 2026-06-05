@@ -69,25 +69,40 @@ export default function About() {
               ))}
             </h1>
 
-            {/* Tagline */}
-            <div className="mb-5 opacity-0" style={{ animation: 'revealUp 0.6s ease forwards 0.45s' }}>
-              <p className="text-xl md:text-2xl text-text leading-snug">
-                {hero.tagline}{' '}
-                <span className="text-text-bright font-medium">{hero.taglineBold}</span>
+            {/* Intro */}
+            <div className="mb-4 opacity-0" style={{ animation: 'revealUp 0.6s ease forwards 0.45s' }}>
+              <p className="text-lg md:text-xl text-text-bright font-medium leading-relaxed">
+                {hero.tagline}{' '}{hero.taglineBold}
               </p>
             </div>
 
+            {/* Why questions */}
+            {hero.questions && (
+              <div className="pl-4 border-l-2 border-amber/30 space-y-1.5 mb-4 opacity-0" style={{ animation: 'revealUp 0.6s ease forwards 0.52s' }}>
+                {hero.questions.map((q, i) => (
+                  <p key={i} className="font-mono text-sm text-text-dim">{q}</p>
+                ))}
+              </div>
+            )}
+
             {/* Sub */}
-            <p className="text-text-dim leading-relaxed max-w-lg mb-8 opacity-0" style={{ animation: 'revealUp 0.6s ease forwards 0.55s' }}>
+            <p className="text-text-dim leading-relaxed max-w-lg mb-7 opacity-0" style={{ animation: 'revealUp 0.6s ease forwards 0.58s' }}>
               {hero.sub}
             </p>
 
-            {/* Discipline tags */}
-            <div className="flex flex-wrap gap-2 mb-10 opacity-0" style={{ animation: 'revealUp 0.6s ease forwards 0.6s' }}>
-              {snap.disciplines.map(d => (
-                <span key={d} className="tag">{d}</span>
-              ))}
-            </div>
+            {/* What I enjoy working on */}
+            {snap.interests && (
+              <div className="mb-8 opacity-0" style={{ animation: 'revealUp 0.6s ease forwards 0.62s' }}>
+                <p className="font-mono text-[10px] tracking-[0.2em] text-amber/60 mb-3 uppercase">
+                  {lang === 'en' ? 'What I enjoy working on' : 'Ce que j\'aime faire'}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {snap.interests.map(item => (
+                    <span key={item} className="tag">{item}</span>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-4 opacity-0" style={{ animation: 'revealUp 0.6s ease forwards 0.65s' }}>
