@@ -205,16 +205,16 @@ export default function About() {
               <div className="space-y-4">
                 {[
                   {
-                    phase: lang === 'en' ? 'Communications & PR'       : 'Communication & RP',
-                    desc:  lang === 'en' ? 'Brand narrative, media, storytelling' : 'Narration de marque, médias, storytelling',
+                    phase: lang === 'en' ? 'Brand & Communications'    : 'Marque & Communication',
+                    desc:  lang === 'en' ? 'Understanding audiences, narratives and what resonates' : 'Comprendre les audiences, les récits et ce qui résonne',
                   },
                   {
-                    phase: lang === 'en' ? 'Brand Strategy & Management' : 'Stratégie & Management de Marque',
-                    desc:  lang === 'en' ? 'Product launches, category management, organic & paid Ads' : 'Lancements produits, category management, organic & paid Ads',
+                    phase: lang === 'en' ? 'Consumer Insights & Strategy' : 'Insights Consommateurs & Stratégie',
+                    desc:  lang === 'en' ? 'Connecting behaviour data to brand and commercial decisions' : 'Relier les données comportementales aux décisions commerciales',
                   },
                   {
-                    phase: lang === 'en' ? 'Business Analytics & BI'  : 'Analyse Business & BI',
-                    desc:  lang === 'en' ? 'Consumer insights, KPIs, dashboards, automation' : 'Insight consommateur, KPIs, dashboards, automatisation',
+                    phase: lang === 'en' ? 'Business Analysis & Data'  : 'Analyse Business & Data',
+                    desc:  lang === 'en' ? 'Analysis, dashboards, process design, automation, AI exploration' : 'Analyse, dashboards, conception de processus, automatisation, IA',
                     current: true,
                   },
                 ].map((item, i) => (

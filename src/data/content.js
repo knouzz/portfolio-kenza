@@ -12,10 +12,10 @@ export const content = {
     },
 
     hero: {
-      sysLabel:    'Open to roles focused on customer understanding, performance visibility, and smarter operational systems.',
+      sysLabel:    'Open to roles in business analysis, data analytics, consulting and digital transformation.',
       name:        'Kenza\nEn-nassef',
-      role:        'CONSUMER & MARKETING ANALYST · BRAND INTELLIGENCE · DATA STRATEGY.',
-      tagline:     "I don't think people wake up wanting \"brand experiences\".",
+      role:        'BUSINESS ANALYST · DATA & CONSUMER ANALYTICS · DIGITAL TRANSFORMATION',
+      tagline:     "The interesting part isn't the solution itself.",
       taglineBold: 'They just want things to make sense, products that feel relevant, communication that feels human, and experiences that don’t create friction.',
       sub:
       'My work sits somewhere around that idea, understanding behaviour well enough to help businesses feel a little less disconnected from the people they’re built for.',
@@ -40,9 +40,9 @@ export const content = {
       label:   'About',
       heading: 'I didn’t get into analytics because I liked dashboards.',
       paragraphs: [
-        "My career didn't start in analytics. It started in understanding people.",
-        "Years in brand strategy and communications taught me how narratives shape behaviour, and how rarely those narratives were grounded in evidence about what customers actually do or need. That gap is exactly where I work: at the intersection of brand, customer, and data.",
-        "Today I focus on four things: understanding what drives campaign and creator performance, spotting patterns in customer behaviour, building the reporting visibility that helps brands make smarter decisions, and making sure what we sell actually fits what the customer needs. I work across brands and agencies, equally at home in a data environment and in a strategic conversation.",
+        "My curiosity started with people. Why they behave the way they do, where friction comes from, what actually drives decisions. That pulled me first toward brand strategy and consumer insights, then into analytics and business intelligence.",
+        "Over time I realised what I enjoy most is not any one discipline. It is the moment a messy, unclear problem starts to make sense. Understanding needs, identifying patterns, connecting business objectives to real behaviours, helping teams move from questions to something they can act on.",
+        "Today I work across business analysis, data analytics, consumer understanding and process improvement. Whether the challenge is a reporting system that needs building, a behaviour that needs explaining, or a workflow that needs rethinking, I tend to start from the same place: what is actually happening here, and why?",
       ],
       stats: [
         { value: '4+',  label: 'Years of experience' },
@@ -51,10 +51,10 @@ export const content = {
         { value: 'OPEN', label: 'To new roles' },
       ],
       disciplines: [
-        'Reporting & Data Storytelling',
-        'Consumer Behaviour Insights',
-        'Marketing Intelligence',
-        'Process Optimization & Automation',
+        'Business Analysis',
+        'Data & Consumer Analytics',
+        'Performance Analytics',
+        'Process Improvement & Automation',
       ],
     },
 
@@ -166,17 +166,17 @@ export const content = {
     },
 
     hero: {
-      sysLabel:    'CONSUMER ANALYTICS · INTELLIGENCE MARKETING · PERFORMANCE MARQUES & CAMPAGNES.',
+      sysLabel:    'BUSINESS ANALYSIS · DATA & CONSUMER ANALYTICS · TRANSFORMATION DIGITALE.',
       name:        'Kenza\nEn-nassef',
-      role:        'ANALYSTE CONSUMER & MARKETING · INTELLIGENCE DE MARQUE · DATA STRATEGY.',
+      role:        'BUSINESS ANALYST · DATA & CONSUMER ANALYTICS · TRANSFORMATION DIGITALE.',
       tagline:
-  "Je ne pense pas que les gens se réveillent en voulant des \"expériences de marque\".",
+  "Ce qui est intéressant, ce n'est pas la solution elle-même.",
 
 taglineBold:
-  "Ils veulent juste que les choses aient du sens, des produits qui semblent pertinents, une communication qui semble humaine, et des expériences sans friction.",
+  "C'est comprendre le problème suffisamment bien pour que la bonne réponse devienne évidente.",
 
 sub:
-  "Mon travail gravite autour de cette idée : comprendre les comportements suffisamment bien pour aider les entreprises à se sentir un peu moins déconnectées des gens pour qui elles ont été créées.",
+  "Je travaille quelque part entre l'analyse business, la compréhension client et la data, pour aider à transformer des questions floues en choses concrètes sur lesquelles on peut agir.",
 
 cta1:
   "Explorer les projets",
@@ -200,9 +200,9 @@ cta1:
       label:   'Profil Exécutif',
       heading: "Un autre type d'analyste.",
       paragraphs: [
-        "Ma carrière n'a pas commencé dans l'analytique. Elle a commencé dans la compréhension des gens.",
-        "Des années en stratégie de marque et communication m'ont appris comment les récits façonnent les comportements, et à quel point ces récits étaient rarement ancrés dans des preuves sur ce que les clients font ou ont réellement besoin. C'est exactement là que je travaille : à l'intersection de la marque, du client et de la data.",
-        "Aujourd'hui je me concentre sur quatre choses : comprendre ce qui fait performer les campagnes et les créateurs, identifier les patterns de comportement client, construire la visibilité reporting qui aide les marques à prendre de meilleures décisions, et m'assurer que ce qu'on vend correspond réellement aux besoins du client. Je collabore avec des marques et des agences, aussi à l'aise dans un environnement data que dans une conversation stratégique.",
+        "Ma curiosité a commencé avec les gens. Pourquoi ils se comportent comme ils le font, d'où viennent les frictions, ce qui pilote vraiment les décisions. Cela m'a amenée vers la stratégie de marque et les insights consommateurs, puis vers l'analytique et la business intelligence.",
+        "Au fil du temps, j'ai réalisé que ce que j'apprécie le plus, ce n'est pas une discipline en particulier. C'est le moment où un problème flou commence à avoir du sens. Comprendre les besoins, identifier les patterns, relier les objectifs business aux comportements réels, aider les équipes à passer des questions aux solutions.",
+        "Aujourd'hui je travaille à l'intersection de l'analyse business, de la data analytics, de la compréhension client et de l'amélioration des processus. Que le défi soit un système de reporting à construire, un comportement à expliquer ou un workflow à repenser, je pars toujours du même endroit : qu'est-ce qui se passe vraiment ici, et pourquoi ?",
       ],
       stats: [
         { value: '4+',   label: "Années d'expérience" },
@@ -211,10 +211,10 @@ cta1:
         { value: 'OPEN.', label: 'Aux nouvelles opportunités' },
       ],
       disciplines: [
-          'Reporting stratégique & visualisation de données.',
-  'Analyse des comportements consommateurs',
-  'Intelligence marketing & performance',
-  'Optimisation des processus & automatisation.',
+        'Business Analysis',
+        'Data & Consumer Analytics',
+        'Analytics de Performance',
+        'Amélioration des Processus',
       ],
     },
 
