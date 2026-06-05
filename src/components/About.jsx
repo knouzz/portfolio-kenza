@@ -158,11 +158,12 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-4">
               {/* Portrait — full width on mobile, 42% on desktop */}
               <div className="relative rounded-xl overflow-hidden border border-border/60 w-full sm:w-[42%] sm:shrink-0">
-                <div className="aspect-[4/3] sm:aspect-[3/4]">
+                <div className="aspect-[4/5] sm:aspect-[3/4]">
                   <img
                     src="/kenza.jpg"
                     alt="Kenza En-Nassef"
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover"
+                    style={{ objectPosition: '50% 15%' }}
                   />
                 </div>
               </div>
