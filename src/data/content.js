@@ -16,15 +16,15 @@ export const content = {
       name:        'Kenza\nEn-nassef',
       role:        'BUSINESS ANALYST · DATA & CONSUMER ANALYTICS · DIGITAL TRANSFORMATION',
       tagline:     "My career started in marketing and communications.",
-      taglineBold: "I thought I would spend my time telling stories. Instead, I became increasingly interested in the questions hiding behind them.",
+      taglineBold: "I thought I would spend my time telling stories. Instead, I became increasingly interested in the questions behind them.",
       questions: [
-        "Why performance changes.",
-        "Why customers behave differently than expected.",
-        "Why some initiatives create momentum while others create friction.",
-        "Why teams sometimes spend months solving the wrong problem.",
+        "How to understand what drives performance shifts.",
+        "How to identify why customers behave differently than expected.",
+        "How to diagnose which initiatives create momentum and which introduce friction.",
+        "How to ensure teams focus on the right problem from the start.",
       ],
       sub:
-      "Over time, those questions led me toward business analysis, data analytics and digital transformation. Today, I enjoy working where business needs, data and decision-making meet. I turn complex problems into clear solutions, working with clients and developers.",
+      "Over time, these questions led me toward business analysis, data analytics, and digital transformation. Today, I enjoy working at the intersection of business needs, data, and decision-making. I turn complex problems into clear, actionable solutions, collaborating closely with both clients and developers.",
       cta1: 'Explore Projects',
       cta2: 'Get in Touch',
       panel: {
@@ -192,14 +192,14 @@ taglineBold:
   "Je pensais passer mon temps à raconter des histoires. En réalité, je me suis de plus en plus intéressée aux questions qui se cachaient derrière.",
 
 questions: [
-  "Pourquoi la performance évolue.",
-  "Pourquoi les clients se comportent différemment de ce qu'on attendait.",
-  "Pourquoi certaines initiatives créent de l'élan et d'autres des frictions.",
-  "Pourquoi les équipes passent parfois des mois à résoudre le mauvais problème.",
+  "Comment comprendre ce qui provoque les variations de performance.",
+  "Comment identifier pourquoi les clients se comportent différemment des attentes.",
+  "Comment diagnostiquer quelles initiatives créent de l'élan et lesquelles introduisent des frictions.",
+  "Comment s'assurer que les équipes se concentrent sur le bon problème dès le départ.",
 ],
 
 sub:
-  "Ces questions m'ont progressivement amenée vers l'analyse business, la data analytics et la transformation digitale. Aujourd'hui, j'aime travailler là où les besoins métier, la data et la prise de décision se rencontrent. Je transforme des problèmes complexes en solutions claires, en collaboration avec clients et développeurs.",
+  "Ces questions m'ont progressivement amenée vers l'analyse business, la data analytics et la transformation digitale. Aujourd'hui, j'aime travailler à l'intersection des besoins métier, de la data et de la prise de décision. Je transforme des problèmes complexes en solutions claires et actionnables, en étroite collaboration avec clients et développeurs.",
 
 cta1:
   "Explorer les projets",
